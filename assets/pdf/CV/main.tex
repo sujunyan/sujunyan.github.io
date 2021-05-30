@@ -1,0 +1,265 @@
+\documentclass[margin]{res}
+\setlength{\paperwidth}{210mm}
+\setlength{\paperheight}{300mm}
+
+\setlength{\resumewidth}{180mm}
+\setlength{\topmargin}{-12mm}
+
+\setlength{\oddsidemargin}{-8mm}
+\setlength{\textwidth}{140mm}
+\setlength{\sectionwidth}{35mm}
+
+\setlength{\textheight}{260mm}
+\usepackage{setspace}
+\usepackage{color}
+\renewcommand{\rmdefault}{ppl}
+\linespread{0.94}
+\DeclareFixedFont{\titlefont}{OT1}{qbk}{m}{n}{20pt}
+\usepackage{times}
+\usepackage{url}
+\usepackage{booktabs}
+
+\usepackage[colorlinks=true]{hyperref}
+\hypersetup{
+  colorlinks = true,
+  linkcolor = blue,
+  anchorcolor = blue,
+  citecolor = blue,
+  filecolor = blue,
+  urlcolor = blue
+}
+%% new commands ----------------------------------------------------
+
+%%---------------------------------------------------------------------------------------------
+\begin{document}
+\newcommand{\header}[1]{
+\section{\textcolor[rgb]{0.02,0.54,0.82}{\vbox{\hrule width 90pt height 8pt}}}
+			\textbf{\textcolor[rgb]{0.02, 0.54, 0.82} {\fontencoding{OT1}\fontfamily{cmr}\fontseries{m}\fontshape{n}\fontsize{24.88}{10}\selectfont \large{#1}}}
+        }
+
+\newcommand{\RISSpaper}{
+    \textbf{J. Su.} 
+        \\ Hardware  Acceleration for Sensor Data Fetch,
+        \\ {Carnegie Mellon Robotics Institute Summer Scholars Working Papers Journal Vol.6, pp. 129-132, 2018} 
+         \href{https://riss.ri.cmu.edu/wp-content/uploads/2018/11/RISS_Journal_Nov26-r.pdf}{[pdf]}
+        }
+
+
+%%-----------------------------------------------------------------
+% Name and basic info
+{
+     \moveleft 0.5\hoffset\centerline
+     {
+        \bf\textcolor[rgb]
+        {0.02,0.54,0.82}
+        {\fontencoding{OT1}\fontfamily{cmr}\fontseries{m}\fontshape{n}\fontsize{24.88}{10}\selectfont Junyan Su}
+        \textcolor[rgb]        
+        {0.4,0.4,0.4}
+        {
+            %\huge \textbardbl \hspace{2mm}
+            %{\titlefont Curriculum Vitae}
+        }
+     }
+    % Draw a horizontal line the whole width of resume:
+     \moveleft1.08\hoffset\vbox{\hrule width \resumewidth height 1pt}
+     \smallskip
+    % Contact info  --------------------------------------------
+    % Again, the address lines must be centered over entire width of resume:
+     %\moveleft0.5\hoffset\centerline
+     {
+        %\textcolor[rgb]
+        %{0.3,0.3,0.3}{0,0,0}
+        %{ShanghaiTech University $\bullet$ 393,Huaxia Road,Shanghai, China, 201210}
+     }
+     \moveleft0.5\hoffset\centerline
+    {
+        \textcolor[rgb]
+        {0,0,0}
+        {
+            %Mobile: (+86) 150-0212-7975 $\bullet$\\
+             %\textcolor{black}{\url{sujy@berkeley.edu}} /
+            %\url{sujy@shanghaitech.edu.cn}
+            \url{junyan.su@my.cityu.edu.hk}
+        }     
+    }
+    \moveleft0.5\hoffset\centerline
+    {
+        \textcolor[rgb]
+        {0,0,0}
+        {
+            \url{https://sujunyan.github.io/} 
+        }     
+    }
+} %% basic info and name done -------------------------
+%% resume begin ------------------------------------------------------
+\begin{resume}
+
+%% EDUCATION begin ----------------------------------------------
+\header{EDUCATION}{
+\section{\centerline{\textcolor[rgb]{0, 0, 0}{Nov.2020-present}}}
+            \textbf {City University of Hong Kong}
+            \hspace{65mm}
+            \textbf{Hong Kong, China}
+			\newline
+			Ph.D. candidate in Data Science
+           \vspace{-3mm}
+
+\section{\centerline{\textcolor[rgb]{0, 0, 0}{Sept.2015-Jun.2019}}}
+            \textbf {ShanghaiTech University}
+            \hspace{75mm}
+            \textbf{Shanghai, China}
+			\newline
+			B.E. in Computer Science and Technology
+            %\newline
+            %GPA: \textbf{3.84 /4.0} 
+            %Ranking : \textbf{3/95}
+
+           \vspace{-3mm}
+ \section{\centerline{\textcolor[rgb]{0, 0, 0}{Aug.2018-May 2019}}}
+            \textbf {University of California at Berkeley} 
+            \hspace{70mm}
+            \textbf {CA, USA}
+            \newline
+            Concurrent Enrollment Student at College of Engineering 
+
+           \vspace{-3mm}
+%\section{\centerline{\textcolor[rgb]{0, 0, 0}{Aug.2019-present}}}
+%            \textbf {Washington University in St. Louis} 
+%            \hspace{70mm}
+%            \textbf {MO, USA}
+%            \newline
+%            Ph.D. student in Systems Science and Mathematics
+        
+} % EDUCATION done ---------------------
+
+%% research interest ----------------------------------------
+%\header{RESEARCH INTERESTS}
+%{
+%    \\Intelligent transportation
+%    \\Optimization
+%}
+    
+%% Publication begin -----------------------------------------
+\header{PUBLICATIONS}
+{
+  % IFAC paper --------------
+  \newline
+  \textbf{J. Su}, Y. Jiang, A. Bitlislioglu, C.N. Jones, B. Houska. 
+  \\Distributed Multi-building Coordination for Demand Response 
+  \\ In Proceedings of the 21st IFAC World Congress 
+  \\ Berlin, Germany, July, 2020.
+  %\href{http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/IFAC2020A.pdf}{[pdf]}
+  % groupLasso ------------------
+  \newline \newline
+  Y. Jiang, \textbf{J. Su}, Y. Shi, B. Houska
+  \\Distributed Optimization for Massive Connectivity
+  \\ IEEE Wireless Communication Letters, 2020. 
+  %\href{http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/WCL2020.pdf}{[pdf]}
+  % ICRA -------------------------
+  \newline \newline
+  L. Gao, \textbf{J. Su}, J. Cui, X. Zeng, X. Peng, and L. Kneip
+  \\ Efficient Globally-Optimal Correspondence-Less 
+  \\ Visual Odometry for Planar Ground Vehicles  
+  \\ International Conference on Robotics and Automation (ICRA), IEEE, 2020. 
+  %\href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9196595}{[pdf]}
+  % GPE paper -------------------
+  \newline \newline
+  \textbf{J. Su}, Y. Zha, K. Wang, M.E. Villanueva, R. Paulen, B. Houska. 
+  \\Interval Superposition Arithmetic for Guaranteed Parameter Estimation,
+  \\In Proceedings of the 12th IFAC Symposium on Dynamics and Control 
+  \\of Process Systems, Florianopolis, Brazil, April, 2019.
+  %\href{http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/DYCOPS2019B.pdf}{[pdf]}
+}%% Publication end 
+    
+%% awards & honors ----------------------------------------
+\header{HONORS \& AWARDS}
+{
+\section{\centerline{2016,2017}}
+            Scholarship for Academic Excellence, ShanghaiTech University
+            \vspace{-3mm}
+%\section{\centerline{Oct.13 2017}}
+%    Most Innovative Robot in Rescue Robot Competition, \\
+%    IEEE International Symposium on Safety, Security and Rescue Robotics
+%            \vspace{-3mm}
+\section{\centerline{2019}}
+            Outstanding Graduate of ShanghaiTech University
+            \vspace{-3mm}
+}   % awards & honors done --------------
+
+    
+%% research experience begin --------------------------------------------
+\header{EXPERIENCE}
+{
+% RISS
+{
+\section{  \centerline{\textcolor[rgb]{0, 0, 0}{Jun.2018-Aug.2018}}}
+           {\textbf{Robotics Institute Summer Scholars Program} }
+           \hspace{39mm}
+           \textbf{Pittsburgh, PA, USA}
+            \\ Advisors: Prof. Howie Choset \& Lu Li
+           \newline
+           To design one logic-circuit-level layout with Verilog to fetch data from multiple sensors and reduce CPU intervention time. The report can be found in pp.129-132 of \href{https://riss.ri.cmu.edu/wp-content/uploads/2018/11/RISS_Journal_Nov26-r.pdf}{[pdf]}
+}           
+% Robomasters
+{
+\section{\centerline{\textcolor[rgb]{0, 0, 0}{Sept.2017-May 2018}}}
+           \textbf{Robomasters 2018}         
+           \hspace{89mm}
+           \textbf{Nanjing,China}
+           \newline Advisor: Prof. Andre Rosendo \\
+           \href{https://www.robomaster.com/en-US/robo/rm}{RoboMaster} is one international robotics competition.
+           The competition is like multiplayer online battle arena (MOBA) video game.
+           Each team will build their own robots that serve different 
+           functionality. 
+}
+%interval model          
+%{
+%\section{\centerline{\textcolor[rgb]{0, 0, 0}{May 2018-Jan.2019}}}
+%           \textbf {A Software for Interval Superposition Model}         
+%           \hspace{49mm}
+%           \textbf{Shanghai,China}
+%           \newline Advisor: Prof. Boris Houska \\
+%           Our software package provides a tool to construct enclosures 
+%           of the image set of nonlinear functions easily and 
+%           efficiently, which is needed by a wide variety of numerical 
+%           computing and control algorithms. 
+%} % ISA done
+}       % experience done
+           
+%% course projects begin --------------------------------
+\header{COURSE PROJECTS}
+{
+  \\Lego Pick \& Place Assembler \href{https://legopicknplace.wixsite.com/me102b}{[website]}.
+  \\Turtlebot with Robotic Arm Delivery \href{https://sites.google.com/view/auto-search-pickup-vehicle}{[website]}.
+  \\A Don't-Touch-Me Robot \href{https://sujunyan.github.io/FABLAB_DOCUMENTATION/final_project/final_project.html}{[website]}
+  \\Completed and passed all the points in the \href{http://www.scs.stanford.edu/18wi-cs140/pintos/pintos.html#SEC_Contents}{[Pintos project]}
+  %\\Optimal 800MHz 6-Bit “Absolute-value Detector”
+  %\\In this project, I and my teammate implemented a CMOS level circuit “Absolute-value Detector” with Cadence Virtuoso. We achieved the minimum delay compared with other teams in the course.
+} %% course projects end
+
+
+    %% technical skills ---------------------------------------
+%\header{TECHNICAL SKILLS}
+%{
+%\section{}
+%\begin{spacing}{1.0}
+%            \textbf{Programming Languages:} C/C++, Python\\
+%            \textbf{Scientific Tools:} MATLAB, Mathematica, Julia, ROS \\
+%            \textbf{Hardware Design:}pSoC, STM32xx,Verilog,Cadence Virtuoso  \\
+%            \textbf{Office Applications:} \LaTeX 
+%\end{spacing}
+%} %% technical skills done
+
+%% Teaching ---------------------------------      
+\newpage
+\header{TEACHING}
+{
+  \section{\centerline{Feb.2017-Jun.2017}}
+  Teaching Assistant of \emph{Introduction to Information Science and Technology} 
+  \vspace{-3mm}  
+  \section{\centerline{Sept.2017-Jan.2018}}
+  Teaching Assistant of \emph{Electric Circuits} 
+} % teaching done
+
+\end{resume}
+\end{document}        
