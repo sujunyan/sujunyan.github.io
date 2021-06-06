@@ -504,3 +504,26 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+// self-add
+
+article {
+    table {
+        width: 70%;
+        border-bottom: 1px solid; 
+        border-top: 1px solid; 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+    
+    th {
+        border-bottom: 1px solid;
+        padding-top: 5px;
+        padding-bottom: 2px;
+    }
+    td {
+        padding-top: 5px;
+        padding-bottom: 2px;
+    }
+}
