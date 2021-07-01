@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: <a href="https://www.sdsc.cityu.edu.hk/">School of Data Science, City University of Hong Kong</a>. 
 

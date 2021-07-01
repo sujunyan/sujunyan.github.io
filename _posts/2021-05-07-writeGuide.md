@@ -1,8 +1,7 @@
 ---
-title: 'Academic Writing Style Tips'
-date: 2021-05-07
+title: 'Academic Writing Style Notes'
+date: 2021-07-01
 layout: post
-#permalink: /posts/2021/05/GIGA/
 tags:
     - Writing
 ---
