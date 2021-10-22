@@ -6,4 +6,4 @@ title: misc
 nav: true
 ---
 
-- A <a href="{{ '/assets/pdf/math/math.pdf' | relative_url }}">math cookbook</a> for my own use. Feel free to check it out.
+- A <a href="{{ '/assets/pdf/math/math.pdf' | relative_url }}">math cookbook</a> with some useful but complicated formulas for my own use. Feel free to check it out.
