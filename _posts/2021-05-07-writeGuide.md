@@ -13,6 +13,7 @@ This blog serves a writing style guide for myself. I summarize them here for fut
 - **Cite a website:** There is no standard. The safest way is put everything into reference list and use in-text cite. If you must put a website in a footnote. Only use it when citing an entire website. See [this website](https://www.scribbr.com/apa-examples/website/) and [this website](https://academia.stackexchange.com/questions/8098/how-should-i-cite-a-website-url) for a discussion. 
 - **Footnote** only used for additional information or copyright permission. See [this website](https://writingcommons.org/article/using-footnotes-apa/).
 - Put comma after "i.e." and "e.g."
+- IEEE column has size 3.5 inches and 7.16 inches for columns. Font size is 10 pt. For ACM, font size is 9 pt.
 
 
 ### 2. Notation conventions
