@@ -1,255 +1,137 @@
-\documentclass[margin]{res}
-\setlength{\paperwidth}{210mm}
-\setlength{\paperheight}{300mm}
+\documentclass{resume} % Use the custom resume.cls style
 
-\setlength{\resumewidth}{180mm}
-\setlength{\topmargin}{-12mm}
-
-\setlength{\oddsidemargin}{-8mm}
-\setlength{\textwidth}{140mm}
-\setlength{\sectionwidth}{35mm}
-
-\setlength{\textheight}{260mm}
-\usepackage{setspace}
+\usepackage{natbib}
 \usepackage{bibentry}
-\usepackage{color}
-\renewcommand{\rmdefault}{ppl}
-\linespread{0.94}
-\DeclareFixedFont{\titlefont}{OT1}{qbk}{m}{n}{20pt}
-\usepackage{times}
-\usepackage{url}
-\usepackage{booktabs}
 
-\usepackage[colorlinks=true]{hyperref}
-\hypersetup{
-  colorlinks = true,
-  linkcolor = blue,
-  anchorcolor = blue,
-  citecolor = blue,
-  filecolor = blue,
-  urlcolor = blue
-}
-%% new commands ----------------------------------------------------
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Junyan Su} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+%\address{+1(123) 456-7890 \\ San Francisco, CA} 
+\address{\href{mailto:junyan.su@my.cityu.edu.hk}{junyan.su@my.cityu.edu.hk} 
+%\\ \href{https://linkedin.com/in/linkedinURL}{linkedin.com/in/linkedinURL} 
+\\ \href{sujunyan.github.io}{sujunyan.github.io}}  %
 
-%%---------------------------------------------------------------------------------------------
 \begin{document}
-\newcommand{\header}[1]{
-\section{\textcolor[rgb]{0.02,0.54,0.82}{\vbox{\hrule width 90pt height 8pt}}}
-			\textbf{\textcolor[rgb]{0.02, 0.54, 0.82} {\fontencoding{OT1}\fontfamily{cmr}\fontseries{m}\fontshape{n}\fontsize{24.88}{10}\selectfont \large{#1}}}
-        }
 
-\newcommand{\RISSpaper}{
-    \textbf{J. Su.} 
-        \\ Hardware  Acceleration for Sensor Data Fetch,
-        \\ {Carnegie Mellon Robotics Institute Summer Scholars Working Papers Journal Vol.6, pp. 129-132, 2018} 
-         \href{https://riss.ri.cmu.edu/wp-content/uploads/2018/11/RISS_Journal_Nov26-r.pdf}{[pdf]}
-        }
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
 
+\begin{rSection}{Education}
 
-%%-----------------------------------------------------------------
-% Name and basic info
-{
-     \moveleft 0.5\hoffset\centerline
-     {
-        \bf\textcolor[rgb]
-        {0.02,0.54,0.82}
-        {\fontencoding{OT1}\fontfamily{cmr}\fontseries{m}\fontshape{n}\fontsize{24.88}{10}\selectfont Junyan Su}
-        \textcolor[rgb]        
-        {0.4,0.4,0.4}
-        {
-            %\huge \textbardbl \hspace{2mm}
-            %{\titlefont Curriculum Vitae}
-        }
-     }
-    % Draw a horizontal line the whole width of resume:
-     \moveleft1.08\hoffset\vbox{\hrule width \resumewidth height 1pt}
-     \smallskip
-    % Contact info  --------------------------------------------
-    % Again, the address lines must be centered over entire width of resume:
-     %\moveleft0.5\hoffset\centerline
-     {
-        %\textcolor[rgb]
-        %{0.3,0.3,0.3}{0,0,0}
-        %{ShanghaiTech University $\bullet$ 393,Huaxia Road,Shanghai, China, 201210}
-     }
-     \moveleft0.5\hoffset\centerline
-    {
-        \textcolor[rgb]
-        {0,0,0}
-        {
-            %Mobile: (+86) 150-0212-7975 $\bullet$\\
-             %\textcolor{black}{\url{sujy@berkeley.edu}} /
-            %\url{sujy@shanghaitech.edu.cn}
-            \url{junyan.su@my.cityu.edu.hk}
-        }     
-    }
-    \moveleft0.5\hoffset\centerline
-    {
-        \textcolor[rgb]
-        {0,0,0}
-        {
-            \url{https://sujunyan.github.io/} 
-        }     
-    }
-} %% basic info and name done -------------------------
-%% resume begin ------------------------------------------------------
-\begin{resume}
+{Ph.D. in Data Science}, City University of Hong Kong  \hfill {2020-present}\\
+{B.E. in Computer Science and Technology}, ShanghaiTech University \hfill {2015-2019}
 
-%% EDUCATION begin ----------------------------------------------
-\header{EDUCATION}{
-\section{\centerline{\textcolor[rgb]{0, 0, 0}{Nov.2020-present}}}
-            \textbf {City University of Hong Kong}
-            \hspace{65mm}
-            \textbf{Hong Kong, China}
-			\newline
-			Ph.D. candidate in Data Science
-           \vspace{-3mm}
+\end{rSection}
 
-\section{\centerline{\textcolor[rgb]{0, 0, 0}{Sept.2015-Jun.2019}}}
-            \textbf {ShanghaiTech University}
-            \hspace{75mm}
-            \textbf{Shanghai, China}
-			\newline
-			B.E. in Computer Science and Technology
-            %\newline
-            %GPA: \textbf{3.84 /4.0} 
-            %Ranking : \textbf{3/95}
+\begin{rSection}{Publication}
 
-           \vspace{-3mm}
- \section{\centerline{\textcolor[rgb]{0, 0, 0}{Aug.2018-May 2019}}}
-            \textbf {University of California at Berkeley} 
-            \hspace{70mm}
-            \textbf {CA, USA}
-            \newline
-            Concurrent Enrollment Student at College of Engineering 
-
-           \vspace{-3mm}
-%\section{\centerline{\textcolor[rgb]{0, 0, 0}{Aug.2019-present}}}
-%            \textbf {Washington University in St. Louis} 
-%            \hspace{70mm}
-%            \textbf {MO, USA}
-%            \newline
-%            Ph.D. student in Systems Science and Mathematics
-        
-} % EDUCATION done ---------------------
-
-%% research interest ----------------------------------------
-%\header{RESEARCH INTERESTS}
-%{
-%    \\Intelligent transportation
-%    \\Optimization
-%}
+    \bibliographystyle{unsrt}
+    \nobibliography{../../../_bibliography/papers}
+    \begin{itemize}
+        \item \bibentry{lin2022competitive}
+        \item \bibentry{su2021energy}
+        \item \bibentry{gao2020}
+        \item \bibentry{jiang2020distributed}
+        \item \bibentry{su2020distributed}
+        \item \bibentry{su2019}
+    \end{itemize}
     
-%% Publication begin -----------------------------------------
-\header{PUBLICATIONS}
-{
-  \nobibliography{ref}
-  \bibliographystyle{unsrt}
-  \newline
-  Lin, Qiulin, Yanfang Mo, \textbf{Junyan Su}, and Minghua Chen. "Competitive Online Optimization with Multiple Inventories: A Divide-and-Conquer Approach." Proceedings of the ACM on Measurement and Analysis of Computing Systems 6, no. 2 (2022): 1-28.
-  \newline \newline
-  \textbf{Su, Junyan}, Minghua Chen, and Haibo Zeng. "Energy efficient timely transportation: a comparative study of internal combustion trucks and electric trucks." In Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, pp. 224-225. 2021.
-  \newline \newline
-  Gao, Ling, \textbf{Junyan Su}, Jiadi Cui, Xiangchen Zeng, Xin Peng, and Laurent Kneip. "Efficient globally-optimal correspondence-less visual odometry for planar ground vehicles." In 2020 IEEE International Conference on Robotics and Automation (ICRA), pp. 2696-2702. IEEE, 2020.
-  \newline \newline
-  Jiang, Yuning, \textbf{Junyan Su}, Yuanming Shi, and Boris Houska. "Distributed Optimization for Massive Connectivity." IEEE Wireless Communications Letters 9, no. 9 (2020): 1412-1416.
-  
+\end{rSection}
 
-  %\cite{Gao2020}
-  %\bibliographystyle{plain}
-  %\bibliography{../../../_bibliography/papers.bib}
-}%% Publication end 
-    
-%% awards & honors ----------------------------------------
-\header{HONORS \& AWARDS}
-{
-\section{\centerline{2016,2017}}
-            Scholarship for Academic Excellence, ShanghaiTech University
-            \vspace{-3mm}
-%\section{\centerline{Oct.13 2017}}
-%    Most Innovative Robot in Rescue Robot Competition, \\
-%    IEEE International Symposium on Safety, Security and Rescue Robotics
-%            \vspace{-3mm}
-\section{\centerline{2019}}
-            Outstanding Graduate of ShanghaiTech University
-            \vspace{-3mm}
-}   % awards & honors done --------------
-
-    
-%% research experience begin --------------------------------------------
-\header{EXPERIENCE}
-{
-% RISS
-{
-\section{  \centerline{\textcolor[rgb]{0, 0, 0}{Jun.2018-Aug.2018}}}
-           {\textbf{Robotics Institute Summer Scholars Program} }
-           \hspace{39mm}
-           \textbf{Pittsburgh, PA, USA}
-            \\ Advisors: Prof. Howie Choset \& Lu Li
-           \newline
-           To design one logic-circuit-level layout with Verilog to fetch data from multiple sensors and reduce CPU intervention time. The report can be found in pp.129-132 of \href{https://riss.ri.cmu.edu/wp-content/uploads/2018/11/RISS_Journal_Nov26-r.pdf}{[pdf]}
-}           
-% Robomasters
-{
-\section{\centerline{\textcolor[rgb]{0, 0, 0}{Sept.2017-May 2018}}}
-           \textbf{Robomasters 2018}         
-           \hspace{89mm}
-           \textbf{Nanjing,China}
-           \newline Advisor: Prof. Andre Rosendo \\
-           \href{https://www.robomaster.com/en-US/robo/rm}{RoboMaster} is one international robotics competition.
-           The competition is like multiplayer online battle arena (MOBA) video game.
-           Each team will build their own robots that serve different 
-           functionality. 
-}
-%interval model          
-%{
-%\section{\centerline{\textcolor[rgb]{0, 0, 0}{May 2018-Jan.2019}}}
-%           \textbf {A Software for Interval Superposition Model}         
-%           \hspace{49mm}
-%           \textbf{Shanghai,China}
-%           \newline Advisor: Prof. Boris Houska \\
-%           Our software package provides a tool to construct enclosures 
-%           of the image set of nonlinear functions easily and 
-%           efficiently, which is needed by a wide variety of numerical 
-%           computing and control algorithms. 
-%} % ISA done
-}       % experience done
-           
-%% course projects begin --------------------------------
-\header{COURSE PROJECTS}
-{
-    \vspace{2mm}
-  \\Lego Pick \& Place Assembler \href{https://legopicknplace.wixsite.com/me102b}{[website]}.
-  \\Turtlebot with Robotic Arm Delivery \href{https://sites.google.com/view/auto-search-pickup-vehicle}{[website]}.
-  \\A Don't-Touch-Me Robot \href{https://sujunyan.github.io/FABLAB_DOCUMENTATION/final_project/final_project.html}{[website]}
-  \\Completed and passed all the points in the \href{http://www.scs.stanford.edu/18wi-cs140/pintos/pintos.html#SEC_Contents}{[Pintos project]}
-  %\\Optimal 800MHz 6-Bit “Absolute-value Detector”
-  %\\In this project, I and my teammate implemented a CMOS level circuit “Absolute-value Detector” with Cadence Virtuoso. We achieved the minimum delay compared with other teams in the course.
-} %% course projects end
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+%\begin{rSection}{SKILLS}
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Languages & Javascript, Python, HTML, CSS, PostgreSQL, GraphQL \\
+%Frameworks & React, Redux, Node.js, Express, Django, Mocha \\
+%Tools & Git, Docker, TravisCI, Kubernetes, AWS\\
+%\\
+%Soft Skills & Time Management, Teamwork, Communication, Problem Solving, Leadership, Accountability
+%\\
+%\end{tabular}\\
+%\end{rSection}
 
 
-    %% technical skills ---------------------------------------
-%\header{TECHNICAL SKILLS}
-%{
-%\section{}
-%\begin{spacing}{1.0}
-%            \textbf{Programming Languages:} C/C++, Python\\
-%            \textbf{Scientific Tools:} MATLAB, Mathematica, Julia, ROS \\
-%            \textbf{Hardware Design:}pSoC, STM32xx,Verilog,Cadence Virtuoso  \\
-%            \textbf{Office Applications:} \LaTeX 
-%\end{spacing}
-%} %% technical skills done
+%----------------------------------------------------------------------------------------
+% Projects
+%----------------------------------------------------------------------------------------
+%\begin{rSection}{PROJECTS}
+%\vspace{-1.25em}
+%\item \textbf{Project 1} {Language 1, Framework 1, Database, Language 2, Framework 2, DevOps Tooling} \hfill \href{www.github.com/GITHUBURL}{GitHub}
+%\begin{itemize}
+%    \itemsep -3pt {} 
+%     \item Created a XYZ feature to accomplish ABC.
+%     \item Retrieved data from XYZ to for ABC.
+%    \item Implemented XYZ library for ABC.
+%    \item Utilized XYZ that increased A by B\%.
+% \end{itemize}
+%\item \textbf{Project 2} {Language 1, Framework 1, Database, Language 2, Framework 2, DevOps Tooling} \hfill \href{www.github.com/GITHUBURL}{GitHub}
+%\begin{itemize}
+%    \itemsep -3pt {} 
+%     \item Created a XYZ feature to accomplish ABC.
+%     \item Retrieved data from XYZ to for ABC.
+%    \item Implemented XYZ library for ABC.
+%    \item Utilized XYZ that increased A by B\%.
+% \end{itemize}
+%\item \textbf{Project 3} {Language 1, Framework 1, Database, Language 2, Framework 2, DevOps Tooling} \hfill \href{www.github.com/GITHUBURL}{GitHub}
+%\begin{itemize}
+%    \itemsep -3pt {} 
+%     \item Created a XYZ feature to accomplish ABC.
+%     \item Retrieved data from XYZ to for ABC.
+%    \item Implemented XYZ library for ABC.
+%    \item Utilized XYZ that increased A by B\%.
+% \end{itemize}
+%\end{rSection} 
 
-%% Teaching ---------------------------------      
-% \newpage
-\header{TEACHING}
-{
-  \section{\centerline{Feb.2017-Jun.2017}}
-  Teaching Assistant of \emph{Introduction to Information Science and Technology} 
-  \vspace{-3mm}  
-  \section{\centerline{Sept.2017-Jan.2018}}
-  Teaching Assistant of \emph{Electric Circuits} 
-} % teaching done
+%----------------------------------------------------------------------------------------
+% \begin{rSection}{Extra-Curricular Activities} 
+% \begin{itemize}
+%     \item 	Sample bullet point.
+%     \item	Sample bullet point.
+% \end{itemize}
+% 
+% 
+% \end{rSection}
 
-\end{resume}
-\end{document}        
+%------------------------
+% Use this more detailed section if you have Relevant work experience
+% keep your resume to 1 page, if you need to remove a project to display relevant experience
+% that is okay
+% ----------------------------
+% \begin{rSection}{EXPERIENCE}
+
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+ 
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+
+% \end{rSection} 
+
+%\begin{rSection}{Work History}
+%\vspace{-1.25em}
+%\item \textbf{Job Title} {Company} \hfill Month Year - Month Year
+%\item \textbf{Job Title} {Company} \hfill Month Year - Month Year
+%\item \textbf{Job Title} {Company} \hfill Month Year - Month Year
+%\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
