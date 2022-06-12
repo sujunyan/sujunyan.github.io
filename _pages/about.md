@@ -20,4 +20,4 @@ From 2018 to 2019, I spent my senior year as a visiting student in the Departmen
 Currently, I am a Ph.D. student at School of Data Science, City University of Hong Kong in [Prof. Minghua Chen's group](http://personal.cityu.edu.hk/mchen88/index.html). 
 My research interests include intelligent transportation, and online optimization. I am following and working on the project: "Energy-Efficient Timely Transportation of Long-Haul Heavy-Duty Truck". Detailed descriptions and previous works can be found [here](http://personal.cityu.edu.hk/mchen88/projects/trucking.html).
 
-[<a href="{{ '/assets/pdf/CV/main.pdf' | relative_url }}">Curriculum Vitae</a>]
+[<a href="{{ '/assets/pdf/CV/CV.pdf' | relative_url }}">Curriculum Vitae</a>]

@@ -1,6 +1,21 @@
 ---
 ---
+
+@article{lin2022competitive,
+  abbr={SIGMETRICS},
+  title={Competitive Online Optimization with Multiple Inventories: A Divide-and-Conquer Approach},
+  author={Lin, Qiulin and Mo, Yanfang and Su, Junyan and Chen, Minghua},
+  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  volume={6},
+  number={2},
+  pages={1--28},
+  year={2022},
+  publisher={ACM New York, NY, USA},
+  abstract={We study an online inventory trading problem where a user seeks to maximize the aggregate revenue of trading multiple inventories over a time horizon. The trading constraints and concave revenue functions are revealed sequentially in time, and the user needs to make irrevocable decisions. The problem has wide applications in various engineering domains. Existing works employ the primal-dual framework to design online algorithms with sub-optimal, albeit near-optimal, competitive ratios (CR). We exploit the problem structure to develop a new divide-and-conquer approach to solve the online multi-inventory problem by solving multiple calibrated single-inventory ones separately and combining their solutions. The approach achieves the optimal CR of łn θ + 1 if Nłeq łn θ + 1, where N is the number of inventories and θ represents the revenue function uncertainty; it attains a CR of 1/[1-e^-1/(łnθ+1) ] in [łn θ +1, łn θ +2) otherwise. The divide-and-conquer approach reveals novel structural insights for the problem, (partially) closes a gap in existing studies, and generalizes to broader settings. For example, it gives an algorithm with a CR within a constant factor to the lower bound for a generalized one-way trading problem with price elasticity with no previous results. When developing the above results, we also extend a recent CR-Pursuit algorithmic framework and introduce an online allocation problem with allowance augmentation, both of which can be of independent interest.}
+}
+
 @article{Jiang2020,
+    abbr={IEEE},
 	doi = {10.1109/lwc.2020.2992189},
 	url = {https://doi.org/10.1109%2Flwc.2020.2992189},
 	year = {2020},
@@ -16,7 +31,7 @@
 }
 #selected={true}
 
-@article{Su2020,	
+@article{Su2020distributed,	
     abbr = {IFAC},
     doi = {10.1016/j.ifacol.2020.12.1655},	
     url = {https://doi.org/10.1016%2Fj.ifacol.2020.12.1655},	
@@ -54,7 +69,7 @@
     pdf = {http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/DYCOPS2019B.pdf}
 }
 
-@inproceedings{10.1145/3486611.3492228,
+@inproceedings{su2021energy,
 abbr={BuildSys},
 author = {Su, Junyan and Chen, Minghua and Zeng, Haibo},
 title = {Energy Efficient Timely Transportation: A Comparative Study of Internal Combustion Trucks and Electric Trucks},
@@ -141,3 +156,4 @@ series = {BuildSys '21}
   author={Einstein, A.},
   year={1905}
 }
+

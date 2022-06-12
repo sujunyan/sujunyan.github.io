@@ -8,6 +8,9 @@ If you like the theme, give it a star!
 
 For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+### Note by JS
+- Need to checkout to origin/source branch to edit.
+- Use bin/deploy to deploy the web to the github.
 
 
 ### Installation
