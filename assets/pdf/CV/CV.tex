@@ -11,6 +11,7 @@
 
 \setlength{\textheight}{260mm}
 \usepackage{setspace}
+\usepackage{bibentry}
 \usepackage{color}
 \renewcommand{\rmdefault}{ppl}
 \linespread{0.94}
@@ -142,33 +143,21 @@
 %% Publication begin -----------------------------------------
 \header{PUBLICATIONS}
 {
-  % IFAC paper --------------
+  \nobibliography{ref}
+  \bibliographystyle{unsrt}
   \newline
-  \textbf{J. Su}, Y. Jiang, A. Bitlislioglu, C.N. Jones, B. Houska. 
-  \\Distributed Multi-building Coordination for Demand Response 
-  \\ In Proceedings of the 21st IFAC World Congress 
-  \\ Berlin, Germany, July, 2020.
-  %\href{http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/IFAC2020A.pdf}{[pdf]}
-  % groupLasso ------------------
+  Lin, Qiulin, Yanfang Mo, \textbf{Junyan Su}, and Minghua Chen. "Competitive Online Optimization with Multiple Inventories: A Divide-and-Conquer Approach." Proceedings of the ACM on Measurement and Analysis of Computing Systems 6, no. 2 (2022): 1-28.
   \newline \newline
-  Y. Jiang, \textbf{J. Su}, Y. Shi, B. Houska
-  \\Distributed Optimization for Massive Connectivity
-  \\ IEEE Wireless Communication Letters, 2020. 
-  %\href{http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/WCL2020.pdf}{[pdf]}
-  % ICRA -------------------------
+  \textbf{Su, Junyan}, Minghua Chen, and Haibo Zeng. "Energy efficient timely transportation: a comparative study of internal combustion trucks and electric trucks." In Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, pp. 224-225. 2021.
   \newline \newline
-  L. Gao, \textbf{J. Su}, J. Cui, X. Zeng, X. Peng, and L. Kneip
-  \\ Efficient Globally-Optimal Correspondence-Less 
-  \\ Visual Odometry for Planar Ground Vehicles  
-  \\ International Conference on Robotics and Automation (ICRA), IEEE, 2020. 
-  %\href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9196595}{[pdf]}
-  % GPE paper -------------------
+  Gao, Ling, \textbf{Junyan Su}, Jiadi Cui, Xiangchen Zeng, Xin Peng, and Laurent Kneip. "Efficient globally-optimal correspondence-less visual odometry for planar ground vehicles." In 2020 IEEE International Conference on Robotics and Automation (ICRA), pp. 2696-2702. IEEE, 2020.
   \newline \newline
-  \textbf{J. Su}, Y. Zha, K. Wang, M.E. Villanueva, R. Paulen, B. Houska. 
-  \\Interval Superposition Arithmetic for Guaranteed Parameter Estimation,
-  \\In Proceedings of the 12th IFAC Symposium on Dynamics and Control 
-  \\of Process Systems, Florianopolis, Brazil, April, 2019.
-  %\href{http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/DYCOPS2019B.pdf}{[pdf]}
+  Jiang, Yuning, \textbf{Junyan Su}, Yuanming Shi, and Boris Houska. "Distributed Optimization for Massive Connectivity." IEEE Wireless Communications Letters 9, no. 9 (2020): 1412-1416.
+  
+
+  %\cite{Gao2020}
+  %\bibliographystyle{plain}
+  %\bibliography{../../../_bibliography/papers.bib}
 }%% Publication end 
     
 %% awards & honors ----------------------------------------
@@ -229,6 +218,7 @@
 %% course projects begin --------------------------------
 \header{COURSE PROJECTS}
 {
+    \vspace{2mm}
   \\Lego Pick \& Place Assembler \href{https://legopicknplace.wixsite.com/me102b}{[website]}.
   \\Turtlebot with Robotic Arm Delivery \href{https://sites.google.com/view/auto-search-pickup-vehicle}{[website]}.
   \\A Don't-Touch-Me Robot \href{https://sujunyan.github.io/FABLAB_DOCUMENTATION/final_project/final_project.html}{[website]}
@@ -251,7 +241,7 @@
 %} %% technical skills done
 
 %% Teaching ---------------------------------      
-\newpage
+% \newpage
 \header{TEACHING}
 {
   \section{\centerline{Feb.2017-Jun.2017}}
