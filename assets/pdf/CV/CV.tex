@@ -1,6 +1,6 @@
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage{natbib}
+\usepackage[square,sort,comma,numbers]{natbib} % refer to https://tex.stackexchange.com/questions/54480/package-natbib-error-bibliography-not-compatible-with-author-year-citations to resolve the error...
 \usepackage{bibentry}
 
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
@@ -10,15 +10,18 @@
 % You can merge both of these into a single line, if you do not have a website.
 %\address{+1(123) 456-7890 \\ San Francisco, CA} 
 \address{\href{mailto:junyan.su@my.cityu.edu.hk}{junyan.su@my.cityu.edu.hk} 
-%\\ \href{https://linkedin.com/in/linkedinURL}{linkedin.com/in/linkedinURL} 
+% \\ \href{https://linkedin.com/in/linkedinURL}{linkedin.com/in/linkedinURL} 
 \\ \href{sujunyan.github.io}{sujunyan.github.io}}  %
 
+% \usepackage[backend=bibtex]{biblatex}
+% \addbibresource{\jobname.bib}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
+
 
 \begin{rSection}{Education}
 
@@ -28,34 +31,35 @@
 \end{rSection}
 
 \begin{rSection}{Publication}
-
+    % \bibliographystyle{mybibstyle}
     \bibliographystyle{unsrt}
     \nobibliography{../../../_bibliography/papers}
+    \textbf{Selected Publication:}
+    \begin{itemize}
+        \item \bibentry{lin2022competitive}
+        \item \bibentry{jiang2020distributed}
+    \end{itemize}
+    \textbf{Other Publication:}
     \begin{itemize}
         \item \bibentry{su2022e2pilot}
-        \item \bibentry{lin2022competitive}
         \item \bibentry{su2021energy}
-        \item \bibentry{gao2020}
-        \item \bibentry{jiang2020distributed}
+        \item \bibentry{gao2020efficient}
         \item \bibentry{su2020distributed}
-        \item \bibentry{su2019}
+        \item \bibentry{su2019interval}
     \end{itemize}
-    
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 % TECHINICAL STRENGTHS	
 %----------------------------------------------------------------------------------------
-%\begin{rSection}{SKILLS}
-%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-%Languages & Javascript, Python, HTML, CSS, PostgreSQL, GraphQL \\
-%Frameworks & React, Redux, Node.js, Express, Django, Mocha \\
-%Tools & Git, Docker, TravisCI, Kubernetes, AWS\\
-%\\
-%Soft Skills & Time Management, Teamwork, Communication, Problem Solving, Leadership, Accountability
-%\\
-%\end{tabular}\\
-%\end{rSection}
+\begin{rSection}{SKILLS}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Progamming Languages & Julia, Python, C/C++, MATLAB \\
+% Frameworks & React, Redux, Node.js, Express, Django, Mocha \\
+% Tools & Git, Docker, TravisCI, Kubernetes, AWS\\
+% Soft Skills & Time Management, Teamwork, Communication, Problem Solving, Leadership, Accountability
+\end{tabular}\\
+\end{rSection}
 
 
 %----------------------------------------------------------------------------------------
