@@ -21,3 +21,6 @@ Currently, I am a Ph.D. student at School of Data Science, City University of Ho
 My research interests include intelligent transportation, and online optimization. I am following and working on the project: "Energy-Efficient Timely Transportation of Long-Haul Heavy-Duty Truck". Detailed descriptions and previous works can be found [here](https://www.mhchen.com/projects/trucking.html). I am also the main developer of the [E2Pilot](https://www.e2pilots.com/) software.
 
 [<a href="{{ '/assets/pdf/CV/CV.pdf' | relative_url }}">Curriculum Vitae</a>]
+
+<!-- [<a href="{{ '/assets/pdf/cfo.e-energy23.pdf' | relative_url }}">preprint</a>] 
+-->
