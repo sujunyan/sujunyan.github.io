@@ -1,6 +1,19 @@
 ---
 ---
 
+@inproceedings{su2023follow,
+      title={Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation}, 
+      author={Junyan Su and Qiulin Lin and Minghua Chen},
+      year={2023},
+      publisher = {ACM},
+      booktitle = {Proceedings of the Fourteenth ACM International Conference on Future Energy Systems (ACM e-Energy 2023)},
+      abbr={e-Energy},
+      abstract={
+        We study the carbon footprint optimization (CFO) of a heavy-duty e-truck traveling from an origin to a destination across a national highway network subject to a hard deadline, by optimizing path planning, speed planning, and intermediary charging planning. Such a CFO problem is essential for carbon-friendly e-truck operations. However, it is notoriously challenging to solve due to (i) the hard deadline constraint, (ii) positive battery state-of-charge constraints, (iii) non-convex carbon footprint objective, and (iv) enormous geographical and temporal charging options with diverse carbon intensity. Indeed, we show that the CFO problem is NP-hard. As a key contribution, we show that under practical settings it is equivalent to finding a generalized restricted shortest path on a stage-expanded graph, which extends the original transportation graph to model charging options. Compared to alternative approaches, our formulation incurs low model complexity and reveals a problem structure useful for algorithm design. We exploit the insights to develop an efficient dual-subgradient algorithm that always converges. As another major contribution, we prove that (i) each iteration only incurs polynomial-time complexity, albeit it requires solving an integer charging planning problem optimally, and (ii) the algorithm generates optimal results if a condition is met and solutions with bounded optimality loss otherwise. Extensive simulations based on real-world traces show that our scheme reduces up to 28\% carbon footprint compared to baseline alternatives. The results also demonstrate that e-truck reduces 56\% carbon footprint than internal combustion engine trucks.
+      },
+      arxiv={2305.11912},
+}
+
 @inproceedings{su2022e2pilot,
     abbr={Demo},
     author = {Junyan Su and Minghua Chen and Haibo Zeng},
@@ -44,7 +57,7 @@
     address = {New York, NY, USA},
     url = {https://doi.org/10.1145/3486611.3492228},
     doi = {10.1145/3486611.3492228},
-    abstract = {We carry out a comparative study of energy consumption of the conventional internal combustion truck and the modern electric truck, traveling from origin to destination over the national highway subject to a hard deadline. We focus on understanding energy saving of the latter over the former and key contributing factors. Our study is unique in that (i) it is based on extensive simulations using real-world data over the U.S. highway system, and (ii) we factor in the power system energy-conversion efficiency when calculating the energy consumption of electric trucks for fair comparison. The results show that on average the electric truck save 10% energy as compared to the internal combustion truck, and this saving will improve as power systems incorporate more renewable generation. Furthermore, the energy saving mainly comes from the energy efficiency of electric motors, and other electric-truck features, e.g., regenerative breaking, only have minor contributions.},
+    abstract = {We carry out a comparative study of energy consumption of the conventional internal combustion truck and the modern electric truck, traveling from origin to destination over the national highway subject to a hard deadline. We focus on understanding energy saving of the latter over the former and key contributing factors. Our study is unique in that (i) it is based on extensive simulations using real-world data over the U.S. highway system, and (ii) we factor in the power system energy-conversion efficiency when calculating the energy consumption of electric trucks for fair comparison. The results show that on average the electric truck save 10\% energy as compared to the internal combustion truck, and this saving will improve as power systems incorporate more renewable generation. Furthermore, the energy saving mainly comes from the energy efficiency of electric motors, and other electric-truck features, e.g., regenerative breaking, only have minor contributions.},
     booktitle = {Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (ACM BuildSys 2021)},
     pages = {224–225},
     numpages = {2},
