@@ -29,3 +29,20 @@ I am also the main developer of the [E2Pilot](https://www.e2pilots.com/) softwar
 
 ### Ongoing Project
 - [Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation](https://sujunyan.github.io/cfo-page/)
+
+
+<!-- Default Statcounter code for personal webpage https://sujunyan.github.io/
+-->
+<script type="text/javascript">
+var sc_project=12891429; 
+var sc_invisible=1; 
+var sc_security="cb8394db"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics Made Easy -
+Statcounter" href="https://statcounter.com/" target="_blank"><img
+class="statcounter" src="https://c.statcounter.com/12891429/0/cb8394db/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
