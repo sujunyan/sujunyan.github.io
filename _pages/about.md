@@ -29,6 +29,7 @@ I am also the main developer of the [E2Pilot](https://www.e2pilots.com/) softwar
 
 ### Ongoing Project
 - [Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation](https://sujunyan.github.io/cfo-page/)
+    - <span style="color:red">Best paper award</span> at ACM e-Energy 2023
 
 
 <!-- Default Statcounter code for personal webpage https://sujunyan.github.io/
