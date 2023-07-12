@@ -12,7 +12,9 @@
         We study the carbon footprint optimization (CFO) of a heavy-duty e-truck traveling from an origin to a destination across a national highway network subject to a hard deadline, by optimizing path planning, speed planning, and intermediary charging planning. Such a CFO problem is essential for carbon-friendly e-truck operations. However, it is notoriously challenging to solve due to (i) the hard deadline constraint, (ii) positive battery state-of-charge constraints, (iii) non-convex carbon footprint objective, and (iv) enormous geographical and temporal charging options with diverse carbon intensity. Indeed, we show that the CFO problem is NP-hard. As a key contribution, we show that under practical settings it is equivalent to finding a generalized restricted shortest path on a stage-expanded graph, which extends the original transportation graph to model charging options. Compared to alternative approaches, our formulation incurs low model complexity and reveals a problem structure useful for algorithm design. We exploit the insights to develop an efficient dual-subgradient algorithm that always converges. As another major contribution, we prove that (i) each iteration only incurs polynomial-time complexity, albeit it requires solving an integer charging planning problem optimally, and (ii) the algorithm generates optimal results if a condition is met and solutions with bounded optimality loss otherwise. Extensive simulations based on real-world traces show that our scheme reduces up to 28\% carbon footprint compared to baseline alternatives. The results also demonstrate that e-truck reduces 56\% carbon footprint than internal combustion engine trucks.
       },
       arxiv={2305.11912},
-      note={}
+      note={},
+      website={https://sujunyan.github.io/cfo-page/},
+      pdf={https://www.mhchen.com/papers/CFO_eEnergy.23.pdf},
 }
 
 @inproceedings{su2022e2pilot,
@@ -33,6 +35,7 @@
     location = {Virtual Event},
     series = {e-Energy '22},
     note = {(demo paper)},
+    pdf={eenergy22.e2pilot.demo.pdf},
 }
 
 @article{lin2022competitive,
@@ -45,7 +48,9 @@
   pages={1--28},
   year={2022},
   publisher={ACM New York, NY, USA},
-  abstract={We study an online inventory trading problem where a user seeks to maximize the aggregate revenue of trading multiple inventories over a time horizon. The trading constraints and concave revenue functions are revealed sequentially in time, and the user needs to make irrevocable decisions. The problem has wide applications in various engineering domains. Existing works employ the primal-dual framework to design online algorithms with sub-optimal, albeit near-optimal, competitive ratios (CR). We exploit the problem structure to develop a new divide-and-conquer approach to solve the online multi-inventory problem by solving multiple calibrated single-inventory ones separately and combining their solutions. The approach achieves the optimal CR of łn θ + 1 if Nłeq łn θ + 1, where N is the number of inventories and θ represents the revenue function uncertainty; it attains a CR of 1/[1-e^-1/(łnθ+1) ] in [łn θ +1, łn θ +2) otherwise. The divide-and-conquer approach reveals novel structural insights for the problem, (partially) closes a gap in existing studies, and generalizes to broader settings. For example, it gives an algorithm with a CR within a constant factor to the lower bound for a generalized one-way trading problem with price elasticity with no previous results. When developing the above results, we also extend a recent CR-Pursuit algorithmic framework and introduce an online allocation problem with allowance augmentation, both of which can be of independent interest.}
+  abstract={We study an online inventory trading problem where a user seeks to maximize the aggregate revenue of trading multiple inventories over a time horizon. The trading constraints and concave revenue functions are revealed sequentially in time, and the user needs to make irrevocable decisions. The problem has wide applications in various engineering domains. Existing works employ the primal-dual framework to design online algorithms with sub-optimal, albeit near-optimal, competitive ratios (CR). We exploit the problem structure to develop a new divide-and-conquer approach to solve the online multi-inventory problem by solving multiple calibrated single-inventory ones separately and combining their solutions. The approach achieves the optimal CR of łn θ + 1 if Nłeq łn θ + 1, where N is the number of inventories and θ represents the revenue function uncertainty; it attains a CR of 1/[1-e^-1/(łnθ+1) ] in [łn θ +1, łn θ +2) otherwise. The divide-and-conquer approach reveals novel structural insights for the problem, (partially) closes a gap in existing studies, and generalizes to broader settings. For example, it gives an algorithm with a CR within a constant factor to the lower bound for a generalized one-way trading problem with price elasticity with no previous results. When developing the above results, we also extend a recent CR-Pursuit algorithmic framework and introduce an online allocation problem with allowance augmentation, both of which can be of independent interest.},
+  arxiv={2202.02975},
+  pdf={https://arxiv.org/pdf/2202.02975.pdf},
 }
 
 @inproceedings{su2021energy,
@@ -66,12 +71,12 @@
     location = {Coimbra, Portugal},
     series = {BuildSys '21},
     note = {(poster paper)},
+    pdf={buildsys21.etruck.pdf},
 }
 
 @article{jiang2020distributed,
     abbr={Letter},
 	doi = {10.1109/lwc.2020.2992189},
-	url = {https://doi.org/10.1109%2Flwc.2020.2992189},
 	year = {2020},
 	month = {sep},
 	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
@@ -88,7 +93,6 @@
 @article{su2020distributed,	
     abbr = {IFAC},
     doi = {10.1016/j.ifacol.2020.12.1655},	
-    url = {https://doi.org/10.1016%2Fj.ifacol.2020.12.1655},	
     year = {2020},	
     publisher = {Elsevier {BV}},	
     volume = {53},	
