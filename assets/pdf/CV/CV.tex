@@ -36,21 +36,39 @@
 
 \begin{rSection}{Publication}
     % \bibliographystyle{mybibstyle}
-    \bibliographystyle{unsrt}
+    %% Refer to the following link to highlight my own name.
+    %% https://tex.stackexchange.com/questions/33330/make-one-authors-name-bold-every-time-it-shows-up-in-the-bibliography/33379#33379
+    \def\FormatName#1{%
+    \def\myname{Junyan Su}%
+    \edef\name{#1}%
+    \ifx\name\myname
+      \underline{#1}%
+    \else
+       #1%
+    \fi
+    }
+    \bibliographystyle{abbrv1}
+
     \nobibliography{../../../_bibliography/papers}
     \textbf{Selected Publication:}
     \begin{enumerate}
-        \item \bibentry{su2023follow} \textbf{(Best Paper Award)}
-        \item \bibentry{jiang2020distributed}
+         % \item \underline{Junyan Su}, Qiulin Lin, and Minghua Chen, "Follow the sun and go with the wind: Carbon footprint optimized
+         % timely e-truck transportation", in Proceedings of the Fourteenth ACM International Conference on Future Energy Systems (ACM e-Energy 2023), Orlando, Florida. 
+         \item \bibentry{su2023follow}. \textbf{Best Paper Award}.
+         \item \bibentry{jiang2020distributed}.
     \end{enumerate}
+    % \begin{enumerate}
+    %     \item \bibentry{su2023follow} \textbf{(Best Paper Award)}
+    %     \item \bibentry{jiang2020distributed}
+    % \end{enumerate}
     \textbf{Other Publication:}
     \begin{enumerate}
-        \item \bibentry{lin2022competitive}
-        \item \bibentry{su2022e2pilot}
-        \item \bibentry{su2021energy}
-        \item \bibentry{gao2020efficient}
-        \item \bibentry{su2020distributed}
-        \item \bibentry{su2019interval}
+        \item \bibentry{lin2022competitive}.
+        \item \bibentry{su2022e2pilot}.
+        \item \bibentry{su2021energy}.
+        \item \bibentry{gao2020efficient}.
+        \item \bibentry{su2020distributed}.
+        \item \bibentry{su2019interval}.
     \end{enumerate}
 \end{rSection}
 
