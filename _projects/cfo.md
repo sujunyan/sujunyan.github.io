@@ -43,9 +43,9 @@ Extensive simulations based on real-world traces show that our scheme reduces up
 E-Energy'23 [1] is the seminal work that gives the first problem formulation for the CFO problem and gives an efficient algorithm for solving CFO. CDC'23 [2] supplements e-Energy'23 [1] by studying the theoretic hardness of CFO and provide a bi-criteria approximation algorithm with stronger theoretic performance guarantee (but much higher run-time complexity). Poster and demo papers [3,4] give some preliminary results in the early stage of this project.
 
 ##### **Conference Papers**
-[1] **J. Su** , Q. Lin, and M. Chen, “Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation”, in Proceedings of 14th International Conference on Future Energy Systems (ACM e-Energy 2023), Orlando, Florida, June 20 - 23, 2023. **(Best Paper Award).** [[pdf](https://www.mhchen.com/papers/CFO_eEnergy.23.pdf)] [[arxiv](https://www.mhchen.com/papers/CFO_eEnergy.23.pdf)]
+[1] **J. Su** , Q. Lin, and M. Chen, “Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation”, in Proceedings of 14th International Conference on Future Energy Systems (ACM e-Energy 2023), Orlando, Florida, June 20 - 23, 2023. **(Best Paper Award).** [[pdf](https://www.mhchen.com/papers/CFO_eEnergy.23.pdf)] [[arxiv](https://arxiv.org/abs/2305.11912)]
 
-[2] **J. Su**, Q. Lin, M. Chen, and H. Zeng, “Minimizing Carbon Footprint for Timely E-Truck Transportation: Hardness and Approximation Algorithm”, (invited), in Proceedings of the 62th IEEE Conference on Decision and Control (CDC), Singapore, December 13-15, 2023. [ final version to be available ]
+[2] **J. Su**, Q. Lin, M. Chen, and H. Zeng, “Minimizing Carbon Footprint for Timely E-Truck Transportation: Hardness and Approximation Algorithm”, (invited), in Proceedings of the 62th IEEE Conference on Decision and Control (CDC), Singapore, December 13-15, 2023. [[arxiv](https://arxiv.org/abs/2308.09866)]
 
 ##### **Poster and Demo Papers**
 
