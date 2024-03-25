@@ -55,4 +55,6 @@ E-Energy'23 [1] is one of the first work that gives the problem formulation for 
 
 [4] **J. Su**, M. Chen, and H. Zeng, “E2Pilot: An Energy-Efficient Navigation System for Long-haul Timely Truck Transportation”, in Proceedings of 13th International Conference on Future Energy Systems (ACM e-Energy 2022), virtual conference, June 28 - July 1, 2022. (demo paper) [<a href="{{ '/assets/pdf/eenergy22.e2pilot.demo.pdf' | relative_url }}">pdf</a>]
 
+##### **Patent**
 
+[5] M. Chen., **J. Su**, and Q. Lin, "Carbon Footprint Optimized Timely E-Truck Transportation", 8 Feb 2024, (Filed) U.S. Patent Application No. 18/436,350.
