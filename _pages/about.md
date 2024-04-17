@@ -28,12 +28,15 @@ From 2018 to 2019, I spent my senior year as a visiting student in the Departmen
 -->
 
 <br>
+<br>
 
+<hr>
 
-### Project
+### On-going project
 - <a href="{{ '/projects/cfo' | relative_url }}">Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation</a>
     - <span style="color:red">Best paper award</span> at ACM e-Energy 2023
-
+    - We study an important yet challenging problem , namely the carbon footprint optimization problem for e-trucks.
+    - We provide a novel problem formulation , which incurs low model complexity and reveals a useful problem structure.
 
 <!-- Default Statcounter code for personal webpage https://sujunyan.github.io/
 <script type="text/javascript">
