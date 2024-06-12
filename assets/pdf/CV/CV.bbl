@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}
+
+\bibitem{gao2020efficient}
+\FormatName{Ling Gao}, \FormatName{Junyan Su}, \FormatName{Jiadi Cui}, \FormatName{Xiangchen Zeng}, \FormatName{Xin Peng}, and \FormatName{Laurent Kneip}.
+\newblock Efficient globally-optimal correspondence-less visual odometry for planar ground vehicles.
+\newblock {\em Proceedings of IEEE International Conference on Robotics and Automation (ICRA)}, pages 2696--2702, 2020.
+
+\bibitem{jiang2020distributed}
+\FormatName{Yuning Jiang}, \FormatName{Junyan Su}, \FormatName{Yuanming Shi}, and \FormatName{Boris Houska}.
+\newblock Distributed optimization for massive connectivity.
+\newblock {\em {IEEE} Wireless Communications Letters}, 9(9):1412--1416, 2020.
+
+\bibitem{lin2022competitive}
+\FormatName{Qiulin Lin}, \FormatName{Yanfang Mo}, \FormatName{Junyan Su}, and \FormatName{Minghua Chen}.
+\newblock Competitive online optimization with multiple inventories: A divide-and-conquer approach.
+\newblock {\em Proc. ACM Meas. Anal. Comput. Syst.}, 6(2), 2022.
+
+\bibitem{lin2024competitive}
+\FormatName{Qiulin Lin}, \FormatName{Junyan Su}, and \FormatName{Minhua Chen}.
+\newblock Competitive online age-of-information optimization for energy harvesting systems.
+\newblock In {\em Proceedings of IEEE INFOCOM}, 2024.
+
+\bibitem{su2020distributed}
+\FormatName{Junyan Su}, \FormatName{Yuning Jiang}, \FormatName{Altu{\u{g}} Bitlislio{\u{g}}lu}, \FormatName{Colin~N. Jones}, and \FormatName{Boris Houska}.
+\newblock Distributed multi-building coordination for demand response.
+\newblock {\em {IFAC}-{PapersOnLine}}, 53(2):17113--17118, 2020.
+
+\bibitem{su2023follow}
+\FormatName{Junyan Su}, \FormatName{Qiulin Lin}, and \FormatName{Minghua Chen}.
+\newblock Follow the sun and go with the wind: Carbon footprint optimized timely e-truck transportation.
+\newblock In {\em Proceedings of the ACM e-Energy}, 2023.
+
+\bibitem{su2023minimize}
+\FormatName{Junyan Su}, \FormatName{Qiulin Lin}, \FormatName{Minghua Chen}, and \FormatName{Haibo Zeng}.
+\newblock Minimizing carbon footprint for timely e-truck transportation: Hardness and approximation algorithm.
+\newblock In {\em Proceedings of IEEE Conference on Decision and Control (CDC)}, 2023.
+
+\end{thebibliography}
