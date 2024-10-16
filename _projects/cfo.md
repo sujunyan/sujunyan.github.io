@@ -25,8 +25,9 @@ This project is a follow-up project of [Energy-Efficient Timely Transportation o
 <iframe  src="{{ '/assets/pdf/cfo.slides.pdf' | relative_url }}" width="100%" height="500">
 </iframe>
 
+<!--
 <iframe src="https://onedrive.live.com/embed?resid=246D3C20B0FC822F%21350&amp;authkey=!AFe9PhuYTjFYlyE&amp;em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=0" width="100%" height="500px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 演示文稿，由 <a target="_blank" href="https://office.com/webapps">Office</a> 提供支持。</iframe>
-
+-->
 ---
 
 ### **Description**
