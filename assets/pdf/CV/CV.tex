@@ -56,8 +56,6 @@
     \nobibliography{../../../_bibliography/papers.bib}
     % \nobibliography{papers.bib}
     \begin{enumerate}
-         % \item \underline{Junyan Su}, Qiulin Lin, and Minghua Chen, "Follow the sun and go with the wind: Carbon footprint optimized
-         % timely e-truck transportation", in Proceedings of the Fourteenth ACM International Conference on Future Energy Systems (ACM e-Energy 2023), Orlando, Florida. 
          \item \bibentry{su2024minimizing}.
          \item \bibentry{lin2024competitive}.
          \item \bibentry{su2023minimize}.
@@ -77,6 +75,22 @@
     \end{enumerate}
 \end{rSection}
 
+\begin{rSection}{Working Papers}
+    \def\FormatName#1{%
+    \def\myname{Junyan Su}%
+    \edef\name{#1}%
+    \ifx\name\myname
+      \underline{#1}%
+    \else
+       #1%
+    \fi
+    }
+    \begin{enumerate}
+         \item \bibentry{su2025maximizing}.
+         \item \bibentry{lin2025optimal}.
+    \end{enumerate}
+         % \item \bibentry{su2025maximizing}.
+\end{rSection}
 
 
 \begin{rSection}{Award and Recogition}
@@ -98,10 +112,11 @@
     \textbf{Programming languages:} working knowledge of Julia, Python, C/C++, MATLAB.
 \end{rSection}
 
-\newpage
+% \newpage
 
 \begin{rSection}{Presentations}
     \begin{itemize}
+        \item ``E2Pilot: A Navigation Platform for Energy-Efficient Timely Transportation of Long-Haul Heavy-Duty Trucks'', Prototypes for Humanity, Dubai, November 2024.
         \item ``Minimizing Carbon Footprint for Timely E-Truck Transportation: Hardness and Approximation Algorithm'', 
         CDC 2023, Singpore, December 2023.
         \item ``Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation'', ACM e-Energy 2023, Orlando, Florida, June 2023.
