@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Junyan  Su (苏隽岩) | blank</title>
+<title>Junyan  Su (苏隽岩) | Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -16,8 +16,8 @@
 " />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="/blog/index.html" />
-<meta property="og:description" content="blank" />
+<meta property="og:url" content="/projects/cfo/" />
+<meta property="og:description" content="Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation" />
 <meta property="og:image" content="" />
 
 
@@ -49,7 +49,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/cfo/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -115,7 +115,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               Blog
               
@@ -124,8 +124,6 @@
           
 
           <!-- Other pages -->
-          
-          
           
           
           
@@ -186,49 +184,69 @@
     <div class="container mt-5">
       <div class="post">
 
-    <!--
-  <div class="header-bar">
-    <h2>Blog</h2>
-    <h3></h3>
-  </div>
-    -->
+  <header class="post-header">
+    <h1 class="post-title">Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation</h1>
+    <p class="post-description"></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h6><a class="post-title" href="/blog/2021/writeGuide/">Academic Writing Style Notes</a></h6>
-        <p class="post-meta">July 1, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h6><a class="post-title" href="/blog/2021/PFOL/">Paper Summary: Project-free Online Learning</a></h6>
-        <p class="post-meta">March 24, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h6><a class="post-title" href="/blog/2021/BLO/">Paper Summary: Competing in the Dark: An Efficient Algorithm for Bandit Linear Optimization</a></h6>
-        <p class="post-meta">March 1, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h6><a class="post-title" href="/blog/2021/aSGD/">Paper Summary: Making Gradient Descent Optimal for Strongly Convex Stochastic Optimization</a></h6>
-        <p class="post-meta">February 10, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h6><a class="post-title" href="/blog/2021/GIGA/">Paper Summary: Online Convex Programming and Generalized Infinitesimal Gradient Ascent</a></h6>
-        <p class="post-meta">January 25, 2021</p>
-        <p></p>
-      </li>
-    
-  </ul>
+  <article>
+    <p>Joint work with <a href="https://lin-qiulin.github.io/">Qiulin Lin</a>, <a href="https://www.mhchen.com/">Minghua Chen</a>, and <a href="https://www.faculty.ece.vt.edu/zeng/index.html">Haibo Zeng</a></p>
 
-  
+<p>This project is a follow-up project of <a href="https://www.mhchen.com/projects/trucking.html">Energy-Efficient Timely Transportation of Long-Haul Heavy-Duty Truck</a>.</p>
 
+<hr />
+<h3 id="highlights"><strong>Highlights</strong></h3>
+<ul>
+  <li><span style="color:red">Best paper award</span> at ACM e-Energy 2023</li>
+  <li>We study an <strong>important yet challenging problem</strong> , namely the carbon footprint optimization problem for e-trucks.</li>
+  <li>We provide a <strong>novel problem formulation</strong> , which incurs low model complexity and reveals a useful problem structure.</li>
+  <li>We develop an <strong>efficient algorithm</strong> with performance guarantee.</li>
+  <li><strong>Key idea</strong> : The problem is easy either when there is no charging or when there is only charging. Our idea is to separate the combined challenging problem into those two easy subproblems and combine their solutions.</li>
+  <li>Carbon-optimized solutions save up to <strong>28%</strong> carbon footprint compared to baseline alternatives.</li>
+</ul>
+
+<hr />
+
+<h3 id="slides"><strong>Slides</strong></h3>
+
+<iframe src="/assets/pdf/cfo.slides.pdf" width="100%" height="500">
+</iframe>
+
+<!--
+<iframe src="https://onedrive.live.com/embed?resid=246D3C20B0FC822F%21350&amp;authkey=!AFe9PhuYTjFYlyE&amp;em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=0" width="100%" height="500px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 演示文稿，由 <a target="_blank" href="https://office.com/webapps">Office</a> 提供支持。</iframe>
+-->
+<hr />
+
+<h3 id="description"><strong>Description</strong></h3>
+
+<p>We study the carbon footprint optimization (CFO) of a heavy-duty e-truck traveling from an origin to a destination across a national highway network subject to a hard deadline, by optimizing path planning, speed planning, and intermediary charging planning. Such a CFO problem is essential for carbon-friendly e-truck operations. However, it is notoriously challenging to solve due to (i) the hard deadline constraint, (ii) positive battery state-of-charge constraints, (iii) non-convex carbon footprint objective, and (iv) enormous geographical and temporal charging options with diverse carbon intensity. Indeed, we show that the CFO problem is NP-hard.</p>
+
+<p>As a key contribution, we show that under practical settings it is equivalent to finding a generalized restricted shortest path on a stage-expanded graph, which extends the original transportation graph to model charging options. Compared to alternative approaches, our formulation incurs low model complexity and reveals a problem structure useful for algorithm design. We exploit the insights to develop an efficient dual-subgradient algorithm that always converges. 
+As another major contribution, we prove that (i) each iteration only incurs polynomial-time complexity, albeit it requires solving an integer charging planning problem optimally, and (ii) the algorithm generates optimal results if a condition is met and solutions with bounded optimality loss otherwise.</p>
+
+<p>Extensive simulations based on real-world traces show that our scheme reduces up to 28% carbon footprint compared to baseline alternatives. The results also demonstrate that e-truck reduces 56% carbon footprint than internal combustion engine trucks.</p>
+
+<hr />
+<h3 id="publications"><strong>Publications</strong></h3>
+<h6 id="notes"><strong>Notes</strong></h6>
+<p>E-Energy’23 [1] is one of the first work that gives the problem formulation for the CFO problem and gives an efficient algorithm for solving CFO. CDC’23 [2] supplements e-Energy’23 [1] by studying the theoretic hardness of CFO and provide a bi-criteria approximation algorithm with stronger theoretic performance guarantee (but much higher run-time complexity). Poster and demo papers [3,4] give some preliminary results in the early stage of this project.</p>
+
+<h5 id="conference-papers"><strong>Conference Papers</strong></h5>
+<p>[1] <strong>J. Su</strong> , Q. Lin, and M. Chen, “Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation”, in Proceedings of 14th International Conference on Future Energy Systems (ACM e-Energy 2023), Orlando, Florida, June 20 - 23, 2023. <strong>(Best Paper Award).</strong> [<a href="https://www.mhchen.com/papers/CFO_eEnergy.23.pdf">pdf</a>] [<a href="https://arxiv.org/abs/2305.11912">arxiv</a>]</p>
+
+<p>[2] <strong>J. Su</strong>, Q. Lin, M. Chen, and H. Zeng, “Minimizing Carbon Footprint for Timely E-Truck Transportation: Hardness and Approximation Algorithm”, (invited), in Proceedings of the 62th IEEE Conference on Decision and Control (CDC), Singapore, December 13-15, 2023. [<a href="https://arxiv.org/abs/2308.09866">arxiv</a>]</p>
+
+<h5 id="poster-and-demo-papers"><strong>Poster and Demo Papers</strong></h5>
+
+<p>[3] <strong>J. Su</strong>, M. Chen, and H. Zeng, “Energy Efficient Timely Transportation : A Comparative Study of Internal Combustion Trucks and Electric Trucks”, in Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (ACM BuildSys 2021), Coimbra, Portugal, November 17-18, 2021. (poster paper) [<a href="/assets/pdf/buildsys21.etruck.pdf">pdf</a>]</p>
+
+<p>[4] <strong>J. Su</strong>, M. Chen, and H. Zeng, “E2Pilot: An Energy-Efficient Navigation System for Long-haul Timely Truck Transportation”, in Proceedings of 13th International Conference on Future Energy Systems (ACM e-Energy 2022), virtual conference, June 28 - July 1, 2022. (demo paper) [<a href="/assets/pdf/eenergy22.e2pilot.demo.pdf">pdf</a>]</p>
+
+<h5 id="patent"><strong>Patent</strong></h5>
+
+<p>[5] M. Chen., <strong>J. Su</strong>, and Q. Lin, “Carbon Footprint Optimized Timely E-Truck Transportation”, 8 Feb 2024, (Filed) U.S. Patent Application No. 18/436,350.</p>
+
+  </article>
 
 </div>
 
