@@ -29,7 +29,7 @@
   author          = {Junyan Su and Runzhi Zhou and Qingyu Liu and Wenjie Xu and Minghua Chen and Haibo Zeng},
   journal       = {IEEE Transactions on Intelligent Transportation Systems},
   title           = {{Minimizing Emission for Timely Heavy-Duty Truck Transportation}},
-  year            = {accepted for publication},
+  year            = {2024},
   abbr = {T-ITS},
   selected = {true},
   abstract={
@@ -54,7 +54,6 @@
   title           = {{Competitive Online Age-of-Information Optimization for Energy Harvesting Systems}},
   year            = {2024},
   abbr = {INFOCOM},
-  selected = {true},
   pdf={https://www.mhchen.com/papers/Online.Alg.AoI.INFOCOM.24.pdf},
   abstract={
     We consider the scenario where an energy harvesting source sends its updates to a receiver. The source optimizes its energy allocation over a decision period to maximize a sum of time-varying functions of the age of information (AoI), representing the value of providing timely information. In a practical online setting, we need to make irrevocable energy allocation decisions at each time while the time-varying functions and the energy arrivals are only revealed sequentially.  The problem is then challenging as 1) we are facing uncertain energy harvesting arrivals and time-varying functions, and 2) the energy allocation decisions and the energy harvesting process are coupled due to the capacity-limited battery.  
@@ -117,6 +116,7 @@
     title = {{Competitive Online Optimization with Multiple Inventories: A Divide-and-Conquer Approach}},
     year = {2022},
     issue_date = {June 2022},
+    pdf={https://www.mhchen.com/papers/OOIC-M.SIGMETRICS.22.pdf},
     url = {https://doi.org/10.1145/3530902},
     doi = {10.1145/3530902},
     abstract = {We study an online inventory trading problem where a user seeks to maximize the aggregate revenue of trading multiple inventories over a time horizon. The trading constraints and concave revenue functions are revealed sequentially in time, and the user needs to make irrevocable decisions. The problem has wide applications in various engineering domains. Existing works employ the primal-dual framework to design online algorithms with sub-optimal, albeit near-optimal, competitive ratios (CR). We exploit the problem structure to develop a new divide-and-conquer approach to solve the online multi-inventory problem by solving multiple calibrated single-inventory ones separately and combining their solutions. The approach achieves the optimal CR of \ln θ + 1 if N\leq \ln θ + 1, where N is the number of inventories and θ represents the revenue function uncertainty; it attains a CR of 1/[1-e^-1/(\lnθ+1) ] in [\ln θ +1, \ln θ +2) otherwise. The divide-and-conquer approach reveals novel structural insights for the problem, (partially) closes a gap in existing studies, and generalizes to broader settings. For example, it gives an algorithm with a CR within a constant factor to the lower bound for a generalized one-way trading problem with price elasticity with no previous results. When developing the above results, we also extend a recent CR-Pursuit algorithmic framework and introduce an online allocation problem with allowance augmentation, both of which can be of independent interest.},
@@ -153,8 +153,10 @@
 	title = {{Distributed Optimization for Massive Connectivity}},
 	journal = {{IEEE} Wireless Communications Letters},
     pdf={http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/WCL2020.pdf},
+    abstract={
+        Massive device connectivity in Internet of Thing (IoT) networks with sporadic traffic poses significant communication challenges. To overcome this challenge, the serving base station is required to detect the active devices and estimate the corresponding channel state information during each coherence block. The corresponding joint activity detection and channel estimation problem can be formulated as a group sparse estimation problem, also known under the name “Group Lasso”. This letter presents a fast and efficient distributed algorithm to solve such Group Lasso problems, which alternates between solving small-scaled problems in parallel and dealing with a linear equation for consensus. Numerical results demonstrate the speedup of this algorithm compared with the state-of-the-art methods in terms of convergence speed and computation time.
+    }
 }
-#selected={true}
 
 @article{su2020distributed,	
     abbr = {IFAC},
@@ -168,6 +170,7 @@
     title = {{Distributed Multi-Building Coordination for Demand Response}},
     journal = {{IFAC}-{PapersOnLine}},
     pdf={http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/IFAC2020A.pdf},
+    abstract={This paper presents a distributed optimization algorithm tailored for solving optimal control problems arising in multi-building coordination. The buildings coordinated by a grid operator, join a demand response program to balance the voltage surge by using an energy cost defined criterion. In order to model the hierarchical structure of the building network, we formulate a distributed convex optimization problem with separable objectives and coupled affine equality constraints. A variant of the Augmented Lagrangian based Alternating Direction Inexact Newton (ALADIN) method for solving the considered class of problems is then presented along with a convergence guarantee. To illustrate the effectiveness of the proposed method, we compare it to the Alternating Direction Method of Multipliers (ADMM) by running both an ALADIN and an ADMM based model predictive controller on a benchmark case study.},
 }
 
 
@@ -179,6 +182,7 @@
     pages = {2696-2702},
     author = {Ling Gao and Junyan Su and Jiadi Cui and Xiangchen Zeng and Xin Peng and Laurent Kneip},
     html={https://ieeexplore.ieee.org/abstract/document/9196595},
+    abstract={The motion of planar ground vehicles is often non-holonomic, and as a result may be modelled by the 2 DoF Ackermann steering model. We analyse the feasibility of estimating such motion with a downward facing camera that exerts fronto-parallel motion with respect to the ground plane. This turns the motion estimation into a simple image registration problem in which we only have to identify a 2-parameter planar homography. However, one difficulty that arises from this setup is that ground-plane features are indistinctive and thus hard to match between successive views. We encountered this difficulty by introducing the first globally-optimal, correspondence-less solution to plane-based Ackermann motion estimation. The solution relies on the branch-and-bound optimisation technique. Through the low-dimensional parametrisation, a derivation of tight bounds, and an efficient implementation, we demonstrate how this technique is eventually amenable to accurate real-time motion estimation. We prove its property of global optimality and analyse the impact of assuming a locally constant centre of rotation. Our results on real data finally demonstrate a significant advantage over the more traditional, correspondence-based hypothesise-and-test schemes.},
 }
 
 @article{su2019interval,
@@ -190,5 +194,6 @@
     number = {1},
     pages = {574-579},
     author = {Junyan Su and Yanlin Zha and Kai Wang and Mario E Villanueva and Paulen, R. and Radoslav Paulen},
-    pdf = {http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/DYCOPS2019B.pdf}
+    pdf = {http://faculty.sist.shanghaitech.edu.cn/faculty/boris/paper/DYCOPS2019B.pdf},
+    abstract={The problem of guaranteed parameter estimation (GPE) consists in enclosing the set of all possible parameter values, such that the model predictions match the corresponding measurements within prescribed error bounds. One of the bottlenecks in GPE algorithms, commonly exploiting set inversion, is the construction of enclosures for the image-set of factorable functions. In this paper, we introduce a novel set-based computing method called interval superposition arithmetics (ISA) for the construction of enclosures of such image sets and its use in GPE algorithms. The main benefits of using ISA in the context of GPE lie in the improvement of enclosure accuracy and in the implied reduction of the number of set-membership tests in the set-inversion algorithm.}
 }
