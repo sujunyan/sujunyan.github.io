@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2024/Homebrew)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CV.aux
+The style file: abbrv1.bst
+Database file #1: ../../../_bibliography/underreview.bib
+Database file #2: ../../../_bibliography/papers.bib
+You've used 11 entries,
+            2122 wiz_defined-function locations,
+            557 strings with 6086 characters,
+and the built_in function-call counts, 4256 in all, are:
+= -- 378
+> -- 268
+< -- 2
++ -- 105
+- -- 94
+* -- 392
+:= -- 709
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 80
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 154
+empty$ -- 285
+format.name$ -- 94
+if$ -- 853
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 22
+pop$ -- 93
+preamble$ -- 1
+purify$ -- 69
+quote$ -- 0
+skip$ -- 108
+stack$ -- 0
+substring$ -- 171
+swap$ -- 39
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 0
+while$ -- 29
+width$ -- 13
+write$ -- 116
