@@ -1,29 +1,23 @@
 ---
 ---
 
-
-@article{su2025maximizing,
-  author          = {Junyan Su and Qiulin Lin and Minghua Chen},
-  journal       = {Nature Communications},
-  title           = {{Maximizing Heavy-Duty E-Truck Decarbonization by Carbon-Optimized Timely Transportation}},
-  year            = {sent out for review},
-  abbr = {NCOMMS},
-  abstract={
-    Electrifying heavy-duty trucks is crucial for decarbonizing transportation, but maximizing their potential requires minimizing the carbon footprint of timely deliveries. This complex optimization task involves strategic path, speed, and charging planning, which traditional methods struggle to optimize at scale. We present a novel stage-expanded graph formulation that reduces complexity and reveals a useful problem structure. Our formulation naturally decomposes the problem into more tractable subproblems, allowing efficient coordination between routing and charging decisions, and maintains a manageable graph size. We exploit these structural insights to design an efficient algorithm with strong performance guarantees. Simulations using real-world data over the U.S. highway system demonstrate that our method complements the 44\% carbon reduction from electrification with an additional 24\% decrease, totaling a 68\% reduction. Moreover, our carbon-optimized strategy, applicable to various truck types, can achieve comparable carbon reductions 16 years sooner than zero-emission truck adoption alone. 
-    This approach significantly accelerates transportation decarbonization, offering a powerful tool in the fight against climate change.
-  },
+@article{jiang2025fast,
+    title = {Fast and Lightweight: A real-time parallelizable MPC for embedded systems},
+    journal = {European Journal of Control},
+    pages = {101217},
+    year = {2025},
+    issn = {0947-3580},
+    doi = {https://doi.org/10.1016/j.ejcon.2025.101217},
+    url = {https://www.sciencedirect.com/science/article/pii/S0947358025000457},
+    author = {Yuning Jiang and Kristína Fedorová and Junyan Su and Juraj Oravec and Boris Houska and Colin N. Jones},
+    keywords = {Model predictive control, Multi-parametric optimization, Real-time control, Embedded control, Distributed optimization, Open-source implementation},
+    abstract = {This paper presents a parallelizable suboptimal Model Predictive Control (MPC) design framework for structured linear systems with polytopic state and control constraints. The proposed real-time control policy addresses structured large-scale quadratic programming (QP) problems by deriving the control action by evaluating a finite set of piece-wise affine functions (PWA). These PWA functions are precomputed offline as explicit solutions to small-scale multiparametric QP problems that tailor this method for industrial-oriented or embedded implementation. Prioritizing computational efficiency over optimality, the proposed MPC controller ensures real-time feasibility within stringent time constraints. The key contributions include the derivation of a lower bound on the fixed number of algorithm iterations required to guarantee the closed-loop performance under assumptions and an open-source C-code library, ParExMPC, based on the proposed framework. Numerical simulations highlight the scalability of the method, accommodating systems with a high number of decision variables and extended control horizons—well beyond the capabilities of existing explicit MPC methods. Furthermore, the developed implementation of the proposed close-to-optimal control method demonstrates superior runtime performance compared to state-of-the-art implicit MPC solutions, which rely on online optimization.},
+    code={https://github.com/sujunyan/ParExMPC},
+    html={https://doi.org/10.1016/j.ejcon.2025.101217},
 }
 
-@article{lin2025optimal,
-  author          = {Qiulin Liu and Junyan Su and Minghua Chen},
-  journal       = {IEEE/ACM Transactions on Networking},
-  title           = {{Optimal Algorithms for Online Age-of-Information Optimization in Energy Harvesting Systems}},
-  year            = {under review},
-  abbr = {ToN},
-  abstract={
-    We consider the scenario where an energy harvesting source sends its updates to a receiver. The source optimizes its energy allocation over a decision period to maximize a sum of time-varying functions of the age of information (AoI), representing the value of providing timely information. In a practical online setting, we need to make irrevocable energy allocation decisions at each time while the time-varying functions and the energy arrivals are only revealed sequentially.  The problem is then challenging as 1) we are facing uncertain energy harvesting arrivals and time-varying functions, and 2) the energy allocation decisions and the energy harvesting process are coupled due to the capacity-limited battery. In this paper, we develop an optimal online algorithm \textsf{CR-RePursuit} and show it achieves $(\ln\theta+1)$-competitiveness, where $\theta$ is a parameter representing the level of uncertainty of the time-varying functions. It is the optimal competitive ratio among all deterministic and randomized online algorithms. We also introduce an adaptive variant of the algorithm, {\textsf{CR-RePursuit+}}, that further exploits the revealed information to obtain significantly improved empirical performance. We conduct simulations based on real-world traces and compare our algorithms with conceivable alternatives. The results show that our algorithms achieve 15\% performance improvement as compared to the state-of-the-art baseline.
-  },
-}
+
+
 
 @article{su2024minimizing,
   author          = {Junyan Su and Runzhi Zhou and Qingyu Liu and Wenjie Xu and Minghua Chen and Haibo Zeng},
@@ -44,6 +38,7 @@
     We then tackle the second challenge by developing an efficient heuristic for both path planning and speed planning to solve the emission minimization problem on the scale of national highway systems. 
     Our extensive {simulations} on the US highway system show that our solution reduces up to {46\%} NOx emission as compared to the commonly-adopted fastest path approach. We also find that optimizing heterogeneous speed profiles reduce up to {32\%} emission as compared to their homogeneous counterpart, thus are necessary to be considered in eco-friendly truck operations.
   },
+  html={https://ieeexplore.ieee.org/abstract/document/10803900},
 
 }
 

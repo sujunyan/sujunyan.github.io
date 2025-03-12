@@ -15,9 +15,14 @@
 % \\ \href{https://linkedin.com/in/linkedinURL}{linkedin.com/in/linkedinURL}   %
 \address{Homepage: \href{https://sujunyan.github.io}{sujunyan.github.io}}
 
+
 % \usepackage[backend=bibtex]{biblatex}
 % \addbibresource{\jobname.bib}
 \begin{document}
+
+\bibliographystyle{abbrv1}
+\nobibliography{../../../_bibliography/underreview, ../../../_bibliography/papers}
+% \nobibliography{../../../_bibliography/papers.bib}
 
 %----------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
@@ -51,11 +56,9 @@
        #1%
     \fi
     }
-    \bibliographystyle{abbrv1}
-
-    \nobibliography{../../../_bibliography/papers.bib}
     % \nobibliography{papers.bib}
     \begin{enumerate}
+        \item \bibentry{jiang2025fast}.
          \item \bibentry{su2024minimizing}.
          \item \bibentry{lin2024competitive}.
          \item \bibentry{su2023minimize}.
