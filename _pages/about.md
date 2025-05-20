@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Junyan is currently a Ph.D. candidate at School of Data Science, City University of Hong Kong in [Prof. Minghua Chen's group](https://www.mhchen.com). He received his bachelor degree in Computer Science and Technology from ShanghaiTech University in 2019 mentored by [Prof. Boris Houska](http://faculty.sist.shanghaitech.edu.cn/faculty/boris/). He recieved ACM e-Energy Best Paper Award in 2023. 
+Junyan has passed his Ph.D. thesis defense in 2025 at Department of Data Science, City University of Hong Kong under supervised by [Prof. Minghua Chen](https://www.mhchen.com). He received his bachelor degree in Computer Science and Technology from ShanghaiTech University in 2019 mentored by [Prof. Boris Houska](http://faculty.sist.shanghaitech.edu.cn/faculty/boris/). He recieved ACM e-Energy Best Paper Award in 2023. 
 His research interests include intelligent transportation systems, from the perspective of control and optimization. He also has broad interests in computing methods for energy systems.
 He is also the main developer of the [E2Pilot](https://www.e2pilots.com/) software.
 
