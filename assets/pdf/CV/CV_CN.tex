@@ -1,0 +1,250 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+
+
+\usepackage[square,sort,comma,numbers]{natbib} % refer to https://tex.stackexchange.com/questions/54480/package-natbib-error-bibliography-not-compatible-with-author-year-citations to resolve the error...
+\usepackage{bibentry}
+\usepackage{xeCJK}
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{苏隽岩} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+%\address{+1(123) 456-7890 \\ San Francisco, CA} 
+\address{Email: \href{mailto:junyan.su@my.cityu.edu.hk}{junyan.su@my.cityu.edu.hk} }
+% \\ \href{https://linkedin.com/in/linkedinURL}{linkedin.com/in/linkedinURL}   %
+\address{个人主页: \href{https://sujunyan.github.io}{sujunyan.github.io}}
+
+
+% \usepackage[backend=bibtex]{biblatex}
+% \addbibresource{\jobname.bib}
+\begin{document}
+
+\bibliographystyle{abbrv1}
+\nobibliography{../../../_bibliography/underreview, ../../../_bibliography/papers}
+% \nobibliography{../../../_bibliography/papers.bib}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{教育经历}
+
+\begin{itemize}
+    \item {香港城市大学}, 数据科学博士 \hfill {2020-2025}
+    \item {上海科技大学}, 计算机科学与技术学士 \hfill {2015-2019} 
+\end{itemize}
+% 博士, 数据科学 \\
+
+\end{rSection}
+
+% \begin{rSection}{研究方向}
+%     智慧交通系统，主要从控制与优化的角度进行研究。同时，我也对能源系统的计算方法有广泛的兴趣。
+% \end{rSection}
+% My research interests are intelligent transportation systems, from the perspective of control and optimization. I also have broad interests in computing methods for energy systems.
+
+\def\FormatName#1{%
+    \def\myname{Junyan Su}%
+    \edef\name{#1}%
+    \ifx\name\myname
+      \underline{#1}%
+    \else
+       #1%
+    \fi
+}
+
+\begin{rSection}{项目与技术栈}
+    \begin{itemize}
+        \item 主导开发了\href{https://www.e2pilots.com/}{\textcolor{blue}{E2Pilot}}，一款专为重卡长途运输设计的节能导航系统。系统拥有网页端和移动端。
+        用户只需输入起点、目的地及取送货时间窗，系统将规划最经济的路线和车速，并通过用户当前位置提供实时车速指引，以保障准时送达的前提下实现燃油成本节约。
+        \item 主导开发了\href{https://github.com/sujunyan/ParExMPC}{\textcolor{blue}{ParExMPC}}。ParExMPC 是一款模型预测控制（MPC）设计工具箱。提供基于 MATLAB 的用户界面和定制的 C 代码求解器。给定一个非线性系统模型和一个优化目标，ParExMPC 可以生成一个近似最优的 MPC 控制器，并生成C代码，以方便用户部署在小型嵌入式系统中。
+        \item 参与了共同署名的所有论文的代码实现以及仿真工作。 
+        \item 编程语言：熟练使用 Julia、Python、C/C++、MATLAB。
+    \end{itemize}
+    % \textbf{Main developer} of the \href{https://www.e2pilots.com/}{\textcolor{blue}{E2Pilot}}, a navigation platform for energy-efficient long-haul timely truck transportation. \\
+    % \textbf{Main developer} of the \href{https://github.com/sujunyan/ParExMPC}{\textcolor{blue}{ParExMPC}}, an open-source toolbox for real-time close-to-optimal Model Predictive Control (MPC) design providing MATLAB-based user interface and tailored C-code solver. \\
+    % \textbf{Main contributor} of the simulation for ALL the publication I co-authored. \\
+    % \textbf{Programming languages:} working knowledge of Julia, Python, C/C++, MATLAB.
+\end{rSection}
+
+
+% \begin{rSection}{Working Papers}
+%     \begin{enumerate}
+%          \item \bibentry{su2025maximizing}.
+%          \item \bibentry{lin2025optimal}.
+%     \end{enumerate}
+%          % \item \bibentry{su2025maximizing}.
+% \end{rSection}
+
+\begin{rSection}{奖项与荣誉}
+    \begin{itemize}
+        \item 美团无人机大赛第二名, 2023
+        % \item CDC学生旅行资助与研讨会支持, 2023. 
+        % \item 香港城市大学研究生学费奖学金, 2023. 
+        \item 香港城市大学杰出学术表现奖, 2023
+        \item ACM e-Energy 最佳论文奖, 2023
+        \item HK Tech 300 \& HKTSP 种子基金获得者, 2022
+        \item 上海科技大学优秀毕业生, 2019
+    \end{itemize}
+    
+    % Second Place, Meituan UAV Competition, 2023. \\
+    % CDC Student Travel Grant \& Workshop Support, 2023. \\
+    % Research Tuition Scholarship, City University of Hong Kong, 2023. \\
+    % Outstanding Academic Performance Award, City University of Hong Kong, 2023. \\
+    % ACM e-Energy Best Paper Award, 2023. \\
+    % HK Tech 300 \& HKTSP Seed Fund, 2022. \\
+    % Outstanding Graduate, ShanghaiTech University, 2019. 
+    % Outstanding Student, ShanghaiTech University, 2016,2017,2018.
+\end{rSection}
+
+% \newpage
+
+
+
+% \newpage
+
+% \begin{rSection}{Presentations}
+%     \begin{itemize}
+%         \item ``E2Pilot: A Navigation Platform for Energy-Efficient Timely Transportation of Long-Haul Heavy-Duty Trucks'', Prototypes for Humanity, Dubai, November 2024.
+%         \item ``Minimizing Carbon Footprint for Timely E-Truck Transportation: Hardness and Approximation Algorithm'', 
+%         CDC 2023, Singpore, December 2023.
+%         \item ``Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation'', ACM e-Energy 2023, Orlando, Florida, June 2023.
+%     \end{itemize}
+% \end{rSection}
+
+\begin{rSection}{期刊论文}
+    % $^*:$ Co-primary author. 
+    \begin{enumerate}
+        \item \bibentry{lin2025optimala}.
+        \item \bibentry{jiang2025fast}.
+        \item \bibentry{su2024minimizing}.
+        \item \bibentry{jiang2020distributed}.
+    \end{enumerate}
+\end{rSection}
+
+\begin{rSection}{会议论文}
+    % \bibliographystyle{mybibstyle}
+    %% Refer to the following link to highlight my own name.
+    %% https://tex.stackexchange.com/questions/33330/make-one-authors-name-bold-every-time-it-shows-up-in-the-bibliography/33379#33379
+    
+    % \nobibliography{papers.bib}
+    \begin{enumerate}
+         \item \bibentry{lin2024competitive}.
+         \item \bibentry{su2023minimize}.
+         \item \bibentry{su2023follow}. \textbf{Best Paper Award}.
+    % \begin{enumerate}
+    %     \item \bibentry{su2023follow} \textbf{(Best Paper Award)}
+    %     \item \bibentry{jiang2020distributed}
+    % \end{enumerate}
+    % \textbf{Other Publication:}
+        \item \bibentry{lin2022competitive}.
+        % \item \bibentry{su2022e2pilot}.
+        % \item \bibentry{su2021energy}.
+        \item \bibentry{su2020distributed}.
+        \item \bibentry{gao2020efficient}.
+        % \item \bibentry{su2019interval}.
+    \end{enumerate}
+\end{rSection}
+
+\begin{rSection}{专利}
+    \begin{itemize}
+        \item M. Chen., \underline{J. Su}, and Q. Lin, "Carbon Footprint Optimized Timely E-Truck Transportation", 8 Feb 2024, (Filed) U.S. Patent Application No. 18/436,350.
+        % Carbon Footprint Optimized Timely E-Truck Transportation CHEN, M., SU, J. & LIN, Q., 8 Feb 2024, (Filed) Priority No. 18/436,350 Research output: Patents, Agreements and Assignments › RGC 51 - Patents (CityU)
+    \end{itemize}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+% \begin{rSection}{SKILLS}
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Progamming Languages & Julia, Python, C/C++, MATLAB \\
+% % Frameworks & React, Redux, Node.js, Express, Django, Mocha \\
+% % Tools & Git, Docker, TravisCI, Kubernetes, AWS\\
+% % Soft Skills & Time Management, Teamwork, Communication, Problem Solving, Leadership, Accountability
+% \end{tabular}\\
+% \end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% Projects
+%----------------------------------------------------------------------------------------
+%\begin{rSection}{PROJECTS}
+%\vspace{-1.25em}
+%\item \textbf{Project 1} {Language 1, Framework 1, Database, Language 2, Framework 2, DevOps Tooling} \hfill \href{www.github.com/GITHUBURL}{GitHub}
+%\begin{itemize}
+%    \itemsep -3pt {} 
+%     \item Created a XYZ feature to accomplish ABC.
+%     \item Retrieved data from XYZ to for ABC.
+%    \item Implemented XYZ library for ABC.
+%    \item Utilized XYZ that increased A by B\%.
+% \end{itemize}
+%\item \textbf{Project 2} {Language 1, Framework 1, Database, Language 2, Framework 2, DevOps Tooling} \hfill \href{www.github.com/GITHUBURL}{GitHub}
+%\begin{itemize}
+%    \itemsep -3pt {} 
+%     \item Created a XYZ feature to accomplish ABC.
+%     \item Retrieved data from XYZ to for ABC.
+%    \item Implemented XYZ library for ABC.
+%    \item Utilized XYZ that increased A by B\%.
+% \end{itemize}
+%\item \textbf{Project 3} {Language 1, Framework 1, Database, Language 2, Framework 2, DevOps Tooling} \hfill \href{www.github.com/GITHUBURL}{GitHub}
+%\begin{itemize}
+%    \itemsep -3pt {} 
+%     \item Created a XYZ feature to accomplish ABC.
+%     \item Retrieved data from XYZ to for ABC.
+%    \item Implemented XYZ library for ABC.
+%    \item Utilized XYZ that increased A by B\%.
+% \end{itemize}
+%\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+% \begin{rSection}{Extra-Curricular Activities} 
+% \begin{itemize}
+%     \item 	Sample bullet point.
+%     \item	Sample bullet point.
+% \end{itemize}
+% 
+% 
+% \end{rSection}
+
+%------------------------
+% Use this more detailed section if you have Relevant work experience
+% keep your resume to 1 page, if you need to remove a project to display relevant experience
+% that is okay
+% ----------------------------
+% \begin{rSection}{EXPERIENCE}
+
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+ 
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+
+% \end{rSection} 
+
+%\begin{rSection}{Work History}
+%\vspace{-1.25em}
+%\item \textbf{Job Title} {Company} \hfill Month Year - Month Year
+%\item \textbf{Job Title} {Company} \hfill Month Year - Month Year
+%\item \textbf{Job Title} {Company} \hfill Month Year - Month Year
+%\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
