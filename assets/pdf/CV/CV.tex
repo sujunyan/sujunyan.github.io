@@ -4,6 +4,7 @@
 
 \usepackage[square,sort,comma,numbers]{natbib} % refer to https://tex.stackexchange.com/questions/54480/package-natbib-error-bibliography-not-compatible-with-author-year-citations to resolve the error...
 \usepackage{bibentry}
+\usepackage{multicol}  % 提供多栏环境
 
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
@@ -93,24 +94,32 @@
 %          % \item \bibentry{su2025maximizing}.
 % \end{rSection}
 
-\begin{rSection}{Award and Recogition}
-    Second Place, Meituan UAV Competition, 2023. \\
-    CDC Student Travel Grant \& Workshop Support, 2023. \\
-    Research Tuition Scholarship, City University of Hong Kong, 2023. \\
-    Outstanding Academic Performance Award, City University of Hong Kong, 2023. \\
-    ACM e-Energy Best Paper Award, 2023. \\
-    HK Tech 300 \& HKTSP Seed Fund, 2022. \\
-    Outstanding Graduate, ShanghaiTech University, 2019. 
-    % Outstanding Student, ShanghaiTech University, 2016,2017,2018.
-\end{rSection}
 
 \newpage
 
+\begin{rSection}{Award and Recogition}
+    % \begin{multicols}{1}
+        \begin{itemize}
+            \item Second Place, Meituan UAV Competition, 2023. 
+            \item CDC Student Travel Grant \& Workshop Support, 2023. 
+            \item Research Tuition Scholarship, City University of Hong Kong, 2023. 
+            \item Outstanding Academic Performance Award, City University of Hong Kong, 2023. 
+            \item ACM e-Energy Best Paper Award, 2023. 
+            \item HK Tech 300 \& HKTSP Seed Fund, 2022. 
+            \item Outstanding Graduate, ShanghaiTech University, 2019. 
+        \end{itemize}
+    % \end{multicols}
+    
+    % Outstanding Student, ShanghaiTech University, 2016,2017,2018.
+\end{rSection}
+
 \begin{rSection}{Software \& Skills}
-    \textbf{Main developer} of the \href{https://www.e2pilots.com/}{\textcolor{blue}{E2Pilot}}, a navigation platform for energy-efficient long-haul timely truck transportation. \\
-    \textbf{Main developer} of the \href{https://github.com/sujunyan/ParExMPC}{\textcolor{blue}{ParExMPC}}, an open-source toolbox for real-time close-to-optimal Model Predictive Control (MPC) design providing MATLAB-based user interface and tailored C-code solver. \\
-    \textbf{Main contributor} of the simulation for ALL the publication I co-authored. \\
-    \textbf{Programming languages:} working knowledge of Julia, Python, C/C++, MATLAB.
+    \begin{itemize}
+        \item \textbf{Main developer} of the \href{https://www.e2pilots.com/}{\textcolor{blue}{E2Pilot}}, a navigation platform for energy-efficient long-haul timely truck transportation. The system contains a website interface and a mobile app interface. Given the origin, destination, and the deadline by the user, our system will compute the energy-efficient path and speed plan, as well as intelligent driving instructions to help truckers save the energy cost while delivering the goods on time. 
+        \item \textbf{Main developer} of the \href{https://github.com/sujunyan/ParExMPC}{\textcolor{blue}{ParExMPC}}, an open-source toolbox for real-time close-to-optimal Model Predictive Control (MPC) design providing MATLAB-based user interface and tailored C-code solver. The user could define the MPC problem with the MATLAB interface and generate the C-code that can be easily deployed resource-constrained embedded systems.
+        \item \textbf{Main contributor} of the simulation for ALL the publication I co-authored. 
+        \item \textbf{Programming languages:} working knowledge of Julia, Python, C/C++, MATLAB.
+    \end{itemize}
 \end{rSection}
 
 % \newpage
