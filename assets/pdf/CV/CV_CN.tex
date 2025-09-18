@@ -7,6 +7,11 @@
 \usepackage{xeCJK}
 \usepackage{multicol}  % 提供多栏环境
 \usepackage{graphicx} % For including images
+\usepackage{amsmath,amsfonts}
+\usepackage{bbm, bm}
+ 
+\newcommand{\trianglebullet}{$\mbox{\ensuremath{\rhd}}$}
+
 
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
@@ -50,18 +55,65 @@
 
 \begin{rSection}{教育经历}
 
-\begin{itemize}
-    \item {香港城市大学}, 数据科学博士 \hfill {2020.10-2026.02}
-    \item {圣路易斯华盛顿大学}, 电子信息工程博士 （拟入学、因签证原因更换学校） \hfill {2019.09}
-    \item {上海科技大学}, 计算机科学与技术学士 \hfill {2015.09-2019.06} 
-\end{itemize}
-% 博士, 数据科学 \\
+% \begin{itemize}
+    \textbf{香港城市大学}  \hfill {2020.10-2026.02} 
+    \\ 数据科学博士 | 指导老师：陈名华教授
+    \begin{itemize}
+        \item 毕业论文：重型卡车及时运输中的排放及碳足迹的优化。
+    \end{itemize}
+    % \\ \trianglebullet 
+
+    \textbf{圣路易斯华盛顿大学}  \hfill {2019.09}
+    \\ 系统科学与数学博士 |（拟入学、因签证原因更换学校） 
+
+    \textbf{上海科技大学}  \hfill {2015.09-2019.06} 
+    \\ 计算机科学与技术学士 | 指导老师：Boris Houska教授、姜育宁博士
+    \\ GPA: 3.84/4.0, 专业排名: 3/95
+    \begin{itemize}
+        \item 核心课程：数据结构(A+)、计算机体系结构(A)、信号与系统(A)、控制原理(A+)、操作系统(A-)、离散数学(A)、算法基础(A)。
+        \item   毕业设计：ALADIN 算法在分布式机器学习中的应用。
+    \end{itemize}
+    % \\ \trianglebullet 
+    % \\ \trianglebullet
+
+    % \\ 毕业论文题目：\textit{Optimizing Carbon Footprint in Long-Haul Heavy-Duty E-Truck Transportation}。
+
+% \end{itemize}
 
 \end{rSection}
 
-% \begin{rSection}{研究方向}
-%     智慧交通系统，主要从控制与优化的角度进行研究。同时，我也对能源系统的计算方法有广泛的兴趣。
-% \end{rSection}
+\begin{rSection}{研究方向}
+    % 智慧交通系统，主要从控制与优化的角度进行研究。同时，我也对能源系统的计算方法有广泛的兴趣。
+    我的研究聚焦于智慧交通系统的控制与优化，通过设计节能导航算法（如路径-速度联合优化）和MPC控制方法, 设计解决高能耗、高排放的交通问题。
+    % 同时探索优化理论在能源系统（如多库存管理）中的跨领域应用，推动可持续发展。
+\end{rSection}
+
+\begin{rSection}{访学交流经历}
+     % \begin{itemize}
+    \textbf{瑞典皇家理工学院}  \hfill {2024.05-2024.09}
+    \\ 访问学生 | 指导老师：Karl H. Johansson教授
+    \begin{itemize}
+        \item 参与KTH-DCS相关的研究活动，探索优化理论在无人机及卡车编队中的应用。
+    \end{itemize}
+    % \\ \trianglebullet 
+
+    \textbf{卡耐基梅隆大学} \hfill {2018.06-2018.08} 
+    \\ RISS机器人暑期项目访问学生 | 指导老师：Howie Choset教授
+    \begin{itemize}
+        \item 使用Verilog的设计逻辑电路级布局，用于从多传感器获取数据并显著减少CPU干预时间。
+    \end{itemize}
+    % \\ \trianglebullet 
+    \textbf{加州大学伯克利分校}  \hfill {2018.08-2019.05} 
+    \\ 访问学生 | GPA: 3.95/4.0 
+    \begin{itemize}
+        \item 核心课程：机器人导论(A)、线性系统理论(A)、机电一体化(A)、编程语言与编译器(A-)、机器人控制与交互(A)、数值计算方法(A)。
+    \end{itemize}
+    % \\ \trianglebullet 
+    % \end{itemize}
+\end{rSection}
+
+
+
 % My research interests are intelligent transportation systems, from the perspective of control and optimization. I also have broad interests in computing methods for energy systems.
 
 \def\FormatName#1{%
@@ -79,9 +131,13 @@
     \projectheader{2022.01-至今}{\href{https://www.e2pilots.com/}{\textcolor{black}{E2Pilot}}: 重卡长途节能导航系统}{技术负责人}
 
     \begin{minipage}[h]{0.65\textwidth} % 左边文字部分，占60%宽度
-        \begin{itemize}
+        % \trianglebullet 项目包括网页端和移动端应用。用户只需输入起点、目的地及取送货时间窗，系统即可规划出最经济的路线和车速。% 通过实时车速指引，确保用户能够在准时送达的同时实现燃油成本节约。
+        % \trianglebullet 项目已成功完成首次实车路测，相关成果已发表多篇论文（包括一篇子刊 \textcolor{blue}{Nature Communications}）。
+        % \trianglebullet 项目已获得HK Tech 300 \& HKTSP种子基金支持。
+        % \trianglebullet 使用的技术栈包括 Julia、JavaScript、Swift、JuMP.jl、Gurobi等。项目链接：\href{https://www.e2pilots.com/}{https://www.e2pilots.com}。
+         \begin{itemize}
             \item 项目包括网页端和移动端应用。用户只需输入起点、目的地及取送货时间窗，系统即可规划出最经济的路线和车速。% 通过实时车速指引，确保用户能够在准时送达的同时实现燃油成本节约。
-            \item 项目已成功完成首次实车路测，相关成果已发表多篇论文（包括一篇子刊Nature Communications）。
+            \item 项目已成功完成首次实车路测，相关成果已发表多篇论文（包括一篇子刊 \textcolor{blue}{Nature Communications}）。
             \item 项目已获得HK Tech 300 \& HKTSP种子基金支持。
             \item 使用的技术栈包括 Julia、JavaScript、Swift、JuMP.jl、Gurobi等。项目链接：\href{https://www.e2pilots.com/}{https://www.e2pilots.com}。
         \end{itemize}
@@ -94,6 +150,7 @@
     \end{minipage}
 
 
+    \newpage
     \vspace{3mm}
     % 主导开发了\href{https://github.com/sujunyan/ParExMPC}{\textcolor{blue}{ParExMPC}}:
     \projectheader{2020.01-2024.12}{ParExMPC: 轻量模型预测控制（MPC）设计工具箱}{技术负责人}
@@ -142,18 +199,45 @@
 
 \begin{rSection}{奖项与荣誉}
 
-    \begin{multicols}{2} 
+    % \begin{multicols}{2} 
     \begin{itemize}
-        \item 美团低空经济挑战赛第二名, 2023
-        \item CDC学生旅行资助与研讨会支持, 2023
+        \item 竞赛奖项: 2023年美团低空经济挑战赛第二名
+        % \end{itemize}
+        \item 学术奖项: 
+        2023年香港城市大学杰出学术表现奖、2023年 ACM e-Energy 最佳论文奖
+        \item 创业资助: 2022年 HK Tech 300 \& HKTSP 种子基金获得者
+        \item 学生奖项与资助：
+        2023年CDC学生旅行资助与研讨会支持、2019 年上海科技大学优秀毕业生
+        % \begin{itemize}
+        % \end{itemize}
+        % \begin{itemize}
+        % \end{itemize}
+        % \begin{itemize}
+        % \end{itemize}
+        % \item 竞赛奖项: 
+        % \begin{itemize}
+        %     \item 2023年美团低空经济挑战赛第二名
+        % \end{itemize}
+        % \item 学术奖项: 
+        % \begin{itemize}
+        %     \item 2023年香港城市大学杰出学术表现奖
+        %     \item 2023年 ACM e-Energy 最佳论文奖
+        % \end{itemize}
+        % \item 创业资助: 
+        % \begin{itemize}
+        %     \item 2022年 HK Tech 300 \& HKTSP 种子基金获得者
+        % \end{itemize}
+        % \item 学生奖项与资助：
+        % \begin{itemize}
+        %     \item 2023年CDC学生旅行资助与研讨会支持
+        %     \item 2019 年上海科技大学优秀毕业生
+        % \end{itemize}
         % \item 香港城市大学研究生学费奖学金, 2023
-        \item 香港城市大学杰出学术表现奖, 2023
-        \item ACM e-Energy 最佳论文奖, 2023
-        \item HK Tech 300 \& HKTSP 种子基金获得者, 2022
-        \item 上海科技大学优秀毕业生, 2019
+        % \item ACM e-Energy 最佳论文奖, 2023
+        % \item 上海科技大学优秀毕业生, 2019
     \end{itemize}
-    \end{multicols}  % 双栏结束
-    \vspace{-5mm}
+    % \end{multicols}  % 双栏结束
+    % \vspace{-5mm}
     % Second Place, Meituan UAV Competition, 2023. \\
     % CDC Student Travel Grant \& Workshop Support, 2023. \\
     % Research Tuition Scholarship, City University of Hong Kong, 2023. \\
@@ -163,26 +247,6 @@
     % Outstanding Graduate, ShanghaiTech University, 2019. 
     % Outstanding Student, ShanghaiTech University, 2016,2017,2018.
 \end{rSection}
-
-\begin{rSection}{技术栈与其它课程项目}
-    \begin{multicols}{2} 
-    \begin{itemize}
-        \item 参与了共同署名的{所有论文}的仿真工作
-        % \item 熟练使用 Julia、Python、C/C++、MATLAB
-        \item 用强化学习游玩吃豆人游戏 (Python、RL) 
-        % \href{https://github.com/sujunyan/SDSC8006RL_project}{\textcolor{blue}{[链接]}}
-        \item 斯坦福Pintos课程项目 (OS、C语言)
-        \item 参与主导RoboMaster 电控部分 (STM32、C语言)
-        \item 伯克利机器人课程项目（控制小车、机械臂）(ROS) % \newline
-        \item ``别碰我''机器人 (电路/机械设计、Arduino)
-        % \href{https://github.com/sujunyan/SDSC8006RL_project}{\textcolor{blue}{[链接]}}
-        % \item 曾经使用过 ROS、Cadence、Verilog、JavaScript、Swift。
-    \end{itemize}
-    \end{multicols}  % 双栏结束
-    \vspace{-5mm}
-\end{rSection}
-
-
 
 % \newpage
 
@@ -204,12 +268,13 @@
         % Carbon Footprint Optimized Timely E-Truck Transportation CHEN, M., SU, J. & LIN, Q., 8 Feb 2024, (Filed) Priority No. 18/436,350 Research output: Patents, Agreements and Assignments › RGC 51 - Patents (CityU)
     \end{itemize}
 \end{rSection}
-\newpage
+% \newpage
 
 \begin{rSection}{期刊论文}
     % $^*:$ Co-primary author. 
     \begin{enumerate}
-        \item \bibentry{su2025optimizing}.
+        % \item \bibentry{su2025optimizing}.
+        \item \underline{Junyan Su}, Qiulin Lin, and Minghua Chen. Optimizing Carbon Footprint in Long-Haul Heavy-Duty E-Truck Transportation. \textcolor{blue}{\textit{Nature Communications}}, accepted for publication. 
         \item \bibentry{lin2025optimala}.
         \item \bibentry{jiang2025fast}.
         \item \bibentry{su2024minimizing}.
@@ -226,7 +291,7 @@
     \begin{enumerate}
          \item \bibentry{lin2024competitive}.
          \item \bibentry{su2023minimize}.
-         \item \bibentry{su2023follow}. \textbf{Best Paper Award}.
+         \item \bibentry{su2023follow}. \textcolor{blue}{Best Paper Award}.
     % \begin{enumerate}
     %     \item \bibentry{su2023follow} \textbf{(Best Paper Award)}
     %     \item \bibentry{jiang2020distributed}
@@ -239,6 +304,34 @@
         \item \bibentry{gao2020efficient}.
         % \item \bibentry{su2019interval}.
     \end{enumerate}
+\end{rSection}
+
+% \newpage
+\begin{rSection}{其它课程项目}
+    \begin{multicols}{2} 
+    \begin{itemize}
+        \item 最优800MHz 6位绝对值检测器 (Cadence)
+        \item 用强化学习游玩吃豆人游戏 (Python、RL) 
+        % \href{https://github.com/sujunyan/SDSC8006RL_project}{\textcolor{blue}{[链接]}}
+        \item 斯坦福Pintos课程项目 (OS、C语言)
+        \item 参与主导RoboMaster 电控部分 (STM32、C语言)
+        \item 伯克利机器人课程项目（控制小车、机械臂）(ROS) % \newline
+        \item ``别碰我''机器人 (电路/机械设计、Arduino)
+        % \href{https://github.com/sujunyan/SDSC8006RL_project}{\textcolor{blue}{[链接]}}
+        % \item 曾经使用过 ROS、Cadence、Verilog、JavaScript、Swift。
+    \end{itemize}
+    \end{multicols}  % 双栏结束
+    \vspace{-5mm}
+\end{rSection}
+
+\begin{rSection}{专业技能}
+    \begin{itemize}
+        \item 参与了共同署名的\textcolor{blue}{所有论文}的仿真工作
+        \item 编程语言：Julia、Python、C/C++、MATLAB、JavaScript、Swift
+        \item 机器人相关: ROS、STM32、Arduino、SolidWorks、RTOS、3D打印、电路设计
+        \item 优化运筹工具: JuMP.jl、Gurobi、Google OR-Tools
+        \item 其它软件/工具: Cadence、Verilog、Git、Linux 开发环境、LaTeX
+    \end{itemize} 
 \end{rSection}
 
 
