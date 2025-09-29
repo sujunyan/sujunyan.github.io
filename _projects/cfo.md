@@ -11,7 +11,9 @@ This project is a follow-up project of [Energy-Efficient Timely Transportation o
 
 ---
 ### **Highlights**
-- <span style="color:red">Best paper award</span> at ACM e-Energy 2023 
+
+- Accepted for publication in <span style="color:blue">Nature Communications</span>
+- <span style="color:blue">Best paper award</span> at ACM e-Energy 2023 
 - We study an **important yet challenging problem** , namely the carbon footprint optimization problem for e-trucks.
 - We provide a **novel problem formulation** , which incurs low model complexity and reveals a useful problem structure.
 - We develop an **efficient algorithm** with performance guarantee.
@@ -43,19 +45,25 @@ Extensive simulations based on real-world traces show that our scheme reduces up
 ---
 ### **Publications**
 ###### **Notes**
-E-Energy'23 [1] is one of the first work that gives the problem formulation for the CFO problem and gives an efficient algorithm for solving CFO. CDC'23 [2] supplements e-Energy'23 [1] by studying the theoretic hardness of CFO and provide a bi-criteria approximation algorithm with stronger theoretic performance guarantee (but much higher run-time complexity). Poster and demo papers [3,4] give some preliminary results in the early stage of this project.
+E-Energy'23 [1] is one of the first work that gives the problem formulation for the CFO problem and gives an efficient algorithm for solving CFO. CDC'23 [2] supplements e-Energy'23 [1] by studying the theoretic hardness of CFO and provide a bi-criteria approximation algorithm with stronger theoretic performance guarantee (but much higher run-time complexity). 
+In our journal paper NC'25[3], we provide more comprehensive evaluations and discussions that focuses more on the practical significance of CFO.
+Poster and demo papers [4,5] give some preliminary results in the early stage of this project.
+
 
 ##### **Conference Papers**
 [1] **J. Su** , Q. Lin, and M. Chen, “Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation”, in Proceedings of 14th International Conference on Future Energy Systems (ACM e-Energy 2023), Orlando, Florida, June 20 - 23, 2023. **(Best Paper Award).** [[pdf](https://www.mhchen.com/papers/CFO_eEnergy.23.pdf)] [[arxiv](https://arxiv.org/abs/2305.11912)]
 
 [2] **J. Su**, Q. Lin, M. Chen, and H. Zeng, “Minimizing Carbon Footprint for Timely E-Truck Transportation: Hardness and Approximation Algorithm”, (invited), in Proceedings of the 62th IEEE Conference on Decision and Control (CDC), Singapore, December 13-15, 2023. [[arxiv](https://arxiv.org/abs/2308.09866)]
 
+##### **Journal Articles**
+[3] **J. Su**, Q. Lin, and M. Chen, “Optimizing Carbon Footprint in Long-Haul Heavy-Duty E-Truck Transportation”, Nature Communications, accepted for publication, 2025.
+
 ##### **Poster and Demo Papers**
 
-[3] **J. Su**, M. Chen, and H. Zeng, “Energy Efficient Timely Transportation : A Comparative Study of Internal Combustion Trucks and Electric Trucks”, in Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (ACM BuildSys 2021), Coimbra, Portugal, November 17-18, 2021. (poster paper) [<a href="{{ '/assets/pdf/buildsys21.etruck.pdf' | relative_url }}">pdf</a>]
+[4] **J. Su**, M. Chen, and H. Zeng, “Energy Efficient Timely Transportation : A Comparative Study of Internal Combustion Trucks and Electric Trucks”, in Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (ACM BuildSys 2021), Coimbra, Portugal, November 17-18, 2021. (poster paper) [<a href="{{ '/assets/pdf/buildsys21.etruck.pdf' | relative_url }}">pdf</a>]
 
-[4] **J. Su**, M. Chen, and H. Zeng, “E2Pilot: An Energy-Efficient Navigation System for Long-haul Timely Truck Transportation”, in Proceedings of 13th International Conference on Future Energy Systems (ACM e-Energy 2022), virtual conference, June 28 - July 1, 2022. (demo paper) [<a href="{{ '/assets/pdf/eenergy22.e2pilot.demo.pdf' | relative_url }}">pdf</a>]
+[5] **J. Su**, M. Chen, and H. Zeng, “E2Pilot: An Energy-Efficient Navigation System for Long-haul Timely Truck Transportation”, in Proceedings of 13th International Conference on Future Energy Systems (ACM e-Energy 2022), virtual conference, June 28 - July 1, 2022. (demo paper) [<a href="{{ '/assets/pdf/eenergy22.e2pilot.demo.pdf' | relative_url }}">pdf</a>]
 
 ##### **Patent**
 
-[5] M. Chen., **J. Su**, and Q. Lin, "Carbon Footprint Optimized Timely E-Truck Transportation", 8 Feb 2024, (Filed) U.S. Patent Application No. 18/436,350.
+[6] M. Chen., **J. Su**, and Q. Lin, "Carbon Footprint Optimized Timely E-Truck Transportation", 8 Feb 2024, (Filed) U.S. Patent Application No. 18/436,350.

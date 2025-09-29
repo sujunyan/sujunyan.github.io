@@ -34,7 +34,8 @@ From 2018 to 2019, I spent my senior year as a visiting student in the Departmen
 
 ### On-going project
 - <a href="{{ '/projects/cfo' | relative_url }}">Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation</a>
-    - <span style="color:red">Best paper award</span> at ACM e-Energy 2023
+    - Accepted for publication in <span style="color:blue">Nature Communications</span>
+    - <span style="color:blue">Best paper award</span> at ACM e-Energy 2023
     - We study the carbon-optimized timely transportation for electric trucks, which is essential for maximizing the decarbonization potential of E-Trucks while challenging to solve.
     - We provide a novel problem formulation , which incurs low model complexity and reveals a useful problem structure.
 
