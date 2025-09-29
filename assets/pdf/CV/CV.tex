@@ -5,6 +5,7 @@
 \usepackage[square,sort,comma,numbers]{natbib} % refer to https://tex.stackexchange.com/questions/54480/package-natbib-error-bibliography-not-compatible-with-author-year-citations to resolve the error...
 \usepackage{bibentry}
 \usepackage{multicol}  % 提供多栏环境
+\usepackage{graphicx}
 
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
@@ -56,6 +57,7 @@
     % $^*:$ Co-primary author. 
     \begin{enumerate}
         % \item \bibentry{su2025optimizing}.
+        \item \underline{Junyan Su}, Qiulin Lin, and Minghua Chen. Optimizing Carbon Footprint in Long-Haul Heavy-Duty E-Truck Transportation. \textcolor{blue}{\textit{Nature Communications}}, accepted for publication, 2025. 
         \item \bibentry{lin2025optimala}.
         \item \bibentry{jiang2025fast}.
         \item \bibentry{su2024minimizing}.
@@ -72,7 +74,7 @@
     \begin{enumerate}
          \item \bibentry{lin2024competitive}.
          \item \bibentry{su2023minimize}.
-         \item \bibentry{su2023follow}. \textbf{Best Paper Award}.
+         \item \bibentry{su2023follow}. \textcolor{blue}{Best Paper Award}.
     % \begin{enumerate}
     %     \item \bibentry{su2023follow} \textbf{(Best Paper Award)}
     %     \item \bibentry{jiang2020distributed}
@@ -116,7 +118,17 @@
 
 \begin{rSection}{Software \& Skills}
     \begin{itemize}
-        \item \textbf{Main developer} of the \href{https://www.e2pilots.com/}{\textcolor{blue}{E2Pilot}}, a navigation platform for energy-efficient long-haul timely truck transportation. The system contains a website interface and a mobile app interface. Given the origin, destination, and the deadline by the user, our system will compute the energy-efficient path and speed plan, as well as intelligent driving instructions to help truckers save the energy cost while delivering the goods on time. 
+        \item 
+        \begin{minipage}[h]{0.64\textwidth} % 左边文字部分，占60%宽度
+            \textbf{Main developer} of the \href{https://www.e2pilots.com/}{\textcolor{blue}{E2Pilot}}, a navigation platform for energy-efficient long-haul timely truck transportation. The system contains a website interface and a mobile app interface. Given the origin, destination, and the deadline by the user, our system will compute the energy-efficient path and speed plan, as well as intelligent driving instructions to help truckers save the energy cost while delivering the goods on time. 
+        \end{minipage}%
+        \hfill % 在左右两部分之间添加间距
+        \begin{minipage}[h]{0.32\textwidth} % 右边图片部分，占35%宽度
+            \centering
+            \includegraphics[width=.80\textwidth]{e2pilot-web.png} % 替换为你的图片路径
+            % \captionof{figure}{E2Pilot 系统界面} % 可选的图片标题
+        \end{minipage}
+
         \item \textbf{Main developer} of the \href{https://github.com/sujunyan/ParExMPC}{\textcolor{blue}{ParExMPC}}, an open-source toolbox for real-time close-to-optimal Model Predictive Control (MPC) design providing MATLAB-based user interface and tailored C-code solver. The user could define the MPC problem with the MATLAB interface and generate the C-code that can be easily deployed resource-constrained embedded systems.
         \item \textbf{Main contributor} of the simulation for ALL the publication I co-authored. 
         \item \textbf{Programming languages:} working knowledge of Julia, Python, C/C++, MATLAB.
