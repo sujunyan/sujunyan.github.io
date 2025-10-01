@@ -50,9 +50,9 @@ Extensive simulations based on real-world traces show that our scheme reduces up
 
 ---
 ### **Publications**
-###### **Notes**
+###### **Notes on Difference of Publications**
 E-Energy'23 [1] is one of the first work that gives the problem formulation for the CFO problem and gives an efficient algorithm for solving CFO. CDC'23 [2] supplements e-Energy'23 [1] by studying the theoretic hardness of CFO and provide a bi-criteria approximation algorithm with stronger theoretic performance guarantee (but much higher run-time complexity). 
-In our journal paper NC'25 [3], we provide an improved algorithm and more comprehensive evaluations and discussions. The journal version NC'23 [3] also focuses more on the practical significance of CFO.
+In our journal paper NC'25 [3], we provide an improved algorithm and more comprehensive evaluations and discussions. The journal version NC'25 [3] also focuses more on the practical significance of CFO and its connection to the broader climate change framework.
 The poster and demo papers [4,5] give some preliminary results in the early stage of this project.
 
 
