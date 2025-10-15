@@ -12,8 +12,8 @@ This project is a follow-up project of [Energy-Efficient Timely Transportation o
 ---
 ### **Highlights**
 
-- Accepted for publication in <span style="color:blue">Nature Communications</span>
-- <span style="color:blue">Best paper award</span> at ACM e-Energy 2023 
+- Accepted for publication in <span style="color:blue">Nature Communications</span>.
+- <span style="color:blue">Best paper award</span> at ACM e-Energy 2023.
 - We study an important yet challenging problem , namely the carbon footprint optimization problem for e-trucks.
 - We provide a novel problem formulation, which incurs low model complexity and reveals a useful problem structure. We develop an efficient algorithm with performance guarantee.
 - **Key technical idea:** The problem is easy either when there is no charging or when there is only charging. Our idea is to separate the combined challenging problem into those two easy subproblems and combine their solutions.
@@ -72,4 +72,9 @@ The poster and demo papers [4,5] give some preliminary results in the early stag
 
 ##### **Patent**
 
-[6] M. Chen., **J. Su**, and Q. Lin, "Carbon Footprint Optimized Timely E-Truck Transportation", 8 Feb 2024, (Filed) U.S. Patent Application No. 18/436,350.
+[6] M. Chen, **J. Su**, and Q. Lin, "Carbon Footprint Optimized Timely E-Truck Transportation", 14 Aug 2025, U.S. Patent No. US2025/0258006.
+
+
+##### **Thesis**
+
+[7] "Minimizing Emission and Carbon Footprint for Timely Heavy-Duty Truck Transportation", Ph.D. Dissertation, City University of Hong Kong, 2025. [[link](https://scholars.cityu.edu.hk/en/studentTheses/minimizing-emission-and-carbon-footprint-for-timely-heavy-duty-tr)] [[pdf](http://lbms03.cityu.edu.hk/theses/ftt/phd-ds-315657520.pdf)]
