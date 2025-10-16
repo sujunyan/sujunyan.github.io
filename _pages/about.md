@@ -25,7 +25,7 @@ His research interests include intelligent transportation systems, from the pers
 -->
 
 [<a href="{{ '/assets/pdf/CV/CV.pdf' | relative_url }}">Curriculum Vitae</a>]
-[<a href="{{ '/assets/pdf/CV/CV_CN.pdf' | relative_url }}">中文简历</a>]
+<!-- [<a href="{{ '/assets/pdf/CV/CV_CN.pdf' | relative_url }}">中文简历</a>] -->
 
 <!-- [<a href="{{ '/assets/pdf/cfo.e-energy23.pdf' | relative_url }}">preprint</a>] 
 -->
