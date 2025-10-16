@@ -16,6 +16,15 @@
 \address{Email: \href{mailto:junyan.su@my.cityu.edu.hk}{junyan.su@my.cityu.edu.hk} }
 % \\ \href{https://linkedin.com/in/linkedinURL}{linkedin.com/in/linkedinURL}   %
 \address{Homepage: \href{https://sujunyan.github.io}{sujunyan.github.io}}
+% 项目经历标题格式定义（可复用）
+\newcommand{\projectheader}[3]{%
+  % \vspace{0.5em} % 标题与内容的间距
+  \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}l@{\extracolsep{\fill}}r@{}}
+% \begin{tabular*}{\linewidth}{@{}>{\bfseries}l@{\extracolsep{\fill}}>{\bfseries}l@{\extracolsep{\fill}}>{\bfseries}l@{}}
+    \textbf{#1} & \textbf{#2} & \textbf{#3} \\
+  \end{tabular*}%
+  \vspace{0.5em} % 标题与内容的间距
+}
 
 
 % \usepackage[backend=bibtex]{biblatex}
@@ -31,17 +40,65 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
+\begin{rSection}{Research Interests}
+    % \begin{center}
+        {
+        Control and Optimization with Applications in Intelligent Transportation and Energy Systems
+        }
+    % \end{center}
+\end{rSection}
+
 
 \begin{rSection}{Education}
 
-{Ph.D. in Data Science}, City University of Hong Kong  \hfill {2020-2025}\\
-{B.E. in Computer Science and Technology}, ShanghaiTech University \hfill {2015-2019}
+
+% {Ph.D. in Data Science}, City University of Hong Kong  \hfill {2020-2025}\\
+% City University of Hong Kong
+% {Ph.D. in Data Science}, City University of Hong Kong  \hfill {2020-2025}\\
+% {B.E. in Computer Science and Technology}, ShanghaiTech University \hfill {2015-2019}
+
+\textbf{City University of Hong Kong}  \hfill {2020.10-2025.10} 
+\\ Ph.D. in Data Science | Advisor：Prof. Minghua Chen 
+\begin{itemize}
+    \item Thesis: Minimizing Emission and Carbon Footprint for Timely Heavy-Duty Truck Transportation
+\end{itemize}
+
+\textbf{ShanghaiTech University}  \hfill {2015.09-2019.06} 
+\\ B.E. in Computer Science and Technology | Advisor: Prof. Boris Houska and Dr. Yuning Jiang
+\\ GPA: 3.84/4.0, Rank: 3/95
+\begin{itemize}
+        % \item 核心课程：数据结构(A+)、计算机体系结构(A)、信号与系统(A)、控制原理(A+)、操作系统(A-)、离散数学(A)、算法基础(A)。
+        \item Thesis: Distributed Machine Learning via ALADIN
+\end{itemize}
 
 \end{rSection}
 
-\begin{rSection}{Research Interests}
-    My research interests are intelligent transportation systems, from the perspective of control and optimization. I also have broad interests in computing methods for energy systems.
+
+\begin{rSection}{Research and Visiting Experience}
+    % \begin{itemize}
+    \textbf{Royal Institute of Technology (KTH)} \hfill {May 2024 - Sep 2024}
+    \\ Visiting Ph.D. Student | Advisor: Prof. Karl H. Johansson
+    \begin{itemize}
+    \item Research on optimization for UAV scheduling and truck fleet management
+    \end{itemize}
+    % \ \trianglebullet
+    
+    \textbf{Carnegie Mellon University, USA} \hfill {Jun 2018 - Aug 2018}
+    \\ Visiting Research Intern, RISS Robotics Summer Program | Advisor: Prof. Howie Choset \& Lu Li
+    \begin{itemize}
+    % \item Designed logic circuits using Verilog to implement the I2C protocol, acquiring data from multiple sensors and significantly reducing CPU intervention time.
+    \item Verilog-based logic circuit design for multi-sensor data retrieval, minimizing CPU overhead (2000ms to 5ms).
+    % \item Logic circuits design using Verilog to fetch data from multiple sensors and significantly reduce CPU intervention time.
+    % to implement the I2C protocol, 
+    \end{itemize}
+    % \ \trianglebullet
+    \textbf{University of California, Berkeley, USA} \hfill {Aug 2018 - May 2019}
+    \\ Visiting Student | GPA: 3.95/4.0
+    \begin{itemize}
+    \item Core Courses: Introduction to Robotics (A), Linear Systems Theory (A), Mechatronics (A), Programming Languages and Compilers (A-), Robot Control and Interaction (A), Numerical Methods (A).
+    \end{itemize}
 \end{rSection}
+
 
 \def\FormatName#1{%
     \def\myname{Junyan Su}%
@@ -98,7 +155,7 @@
 % \end{rSection}
 
 
-\newpage
+% \newpage
 
 \begin{rSection}{Award and Recogition}
     % \begin{multicols}{1}
@@ -131,23 +188,50 @@
     % Outstanding Student, ShanghaiTech University, 2016,2017,2018.
 \end{rSection}
 
-\begin{rSection}{Software \& Skills}
-    \begin{itemize}
-        \item 
-        \begin{minipage}[h]{0.64\textwidth} % 左边文字部分，占60%宽度
-            \textbf{Main developer} of the \href{https://www.e2pilots.com/}{\textcolor{blue}{E2Pilot}}, a navigation platform for energy-efficient long-haul timely truck transportation. The system contains a website interface and a mobile app interface. Given the origin, destination, and the deadline by the user, our system will compute the energy-efficient path and speed plan, as well as intelligent driving instructions to help truckers save the energy cost while delivering the goods on time. 
+\begin{rSection}{Software}
+        % \projectheader{2022.01-current}{\href{https://www.e2pilots.com/}{\textcolor{black}{E2Pilot}}}{Main Developer}
+        \projectheader{\href{https://www.e2pilots.com/}{\textcolor{black}{E2Pilot}}: A Navigation Platform for Energy-Efficient Truck Transportation}{}{Main Developer}
+        \begin{minipage}[h]{0.72\textwidth} % 左边文字部分，占60%宽度
+            \begin{itemize}
+                % \item The project includes both web and mobile applications. 
+                \item Users can input origin, destination, and deadline, then the system will give the energy-efficient path and speed plan. % Through real-time speed guidance, the system ensures that users can deliver on time while saving fuel costs.
+                \item Project completed its first real-world road test, achieving ~5\% energy reduction.
+                \item Several published papers, including one in the \textcolor{blue}{Nature Communications}.
+                \item The project has received support from the HK Tech 300 \& HKTSP seed fund.
+                % \item The technology stack used includes Julia, JavaScript, Swift, JuMP.jl, Gurobi, and more. Project link: \href{https://www.e2pilots.com/}{https://www.e2pilots.com}.
+            \end{itemize}
+
+            % \textbf{Main developer} of the \href{https://www.e2pilots.com/}{\textcolor{blue}{E2Pilot}}, a navigation platform for energy-efficient long-haul timely truck transportation. The system contains a website interface and a mobile app interface. Given the origin, destination, and the deadline by the user, our system will compute the energy-efficient path and speed plan, as well as intelligent driving instructions to help truckers save the energy cost while delivering the goods on time. 
         \end{minipage}%
         \hfill % 在左右两部分之间添加间距
-        \begin{minipage}[h]{0.32\textwidth} % 右边图片部分，占35%宽度
+        \begin{minipage}[h]{0.26\textwidth} % 右边图片部分，占35%宽度
             \centering
             \includegraphics[width=.80\textwidth]{e2pilot-web.png} % 替换为你的图片路径
             % \captionof{figure}{E2Pilot 系统界面} % 可选的图片标题
         \end{minipage}
 
-        \item \textbf{Main developer} of the \href{https://github.com/sujunyan/ParExMPC/wiki}{\textcolor{blue}{ParExMPC}}, an open-source toolbox for real-time close-to-optimal Model Predictive Control (MPC) design providing MATLAB-based user interface and tailored C-code solver. The user could define the MPC problem with the MATLAB interface and generate the C-code that can be easily deployed resource-constrained embedded systems.
-        \item \textbf{Main contributor} of the simulation for ALL the publication I co-authored. 
-        \item \textbf{Programming languages:} working knowledge of Julia, Python, C/C++, MATLAB.
-    \end{itemize}
+        \vspace{3mm}
+        % 主导开发了\href{https://github.com/sujunyan/ParExMPC}{\textcolor{blue}{ParExMPC}}:
+        % \projectheader{2020.01-2024.12}{ParExMPC}{Main Developer}
+        \projectheader{ParExMPC: A Lightweight MPC Design Toolbox}{}{Main Developer}
+        \vspace{-7mm}
+
+        \begin{minipage}[h]{0.99\textwidth} %
+        \begin{itemize}
+            \item Given a nonlinear system model and an optimization objective, users can generate a lightweight MPC controller through the toolbox's MATLAB interface. 
+            \item The toolbox can generate C code. The generated code can be deployed on embedded devices with as little as 2KB of memory.
+            % \item Related results have been published in a research paper.
+            % \item Project link: \href{https://github.com/sujunyan/ParExMPC/wiki}{https://github.com/sujunyan/ParExMPC/wiki}.
+            % \item The technology stack used includes MATLAB and C. 
+            % \item Provides a MATLAB-based user interface and a custom C code solver.
+        \end{itemize}
+        \end{minipage}
+
+    % \begin{itemize}
+    %     \item \textbf{Main developer} of the \href{https://github.com/sujunyan/ParExMPC/wiki}{\textcolor{blue}{ParExMPC}}, an open-source toolbox for real-time close-to-optimal Model Predictive Control (MPC) design providing MATLAB-based user interface and tailored C-code solver. The user could define the MPC problem with the MATLAB interface and generate the C-code that can be easily deployed resource-constrained embedded systems.
+    %     \item \textbf{Main contributor} of the simulation for ALL the publication I co-authored. 
+    %     \item \textbf{Programming languages:} working knowledge of Julia, Python, C/C++, MATLAB.
+    % \end{itemize}
 \end{rSection}
 
 % \newpage
@@ -167,6 +251,29 @@
         % \item M. Chen., \underline{J. Su}, and Q. Lin, ``Carbon Footprint Optimized Timely E-Truck Transportation", 8 Feb 2024, (Filed) U.S. Patent Application No. 18/436,350.
 
         % Carbon Footprint Optimized Timely E-Truck Transportation CHEN, M., SU, J. & LIN, Q., 8 Feb 2024, (Filed) Priority No. 18/436,350 Research output: Patents, Agreements and Assignments › RGC 51 - Patents (CityU)
+    \end{itemize}
+\end{rSection}
+
+% \newpage
+\begin{rSection}{Technical Skills}
+    \begin{itemize}
+    \item \textbf{Main contributor} of the simulation work for \textcolor{blue}{all co-authored papers}
+    \item \textbf{Programming Languages:} 
+    \begin{itemize}
+        \item Julia, Python, C/C++, MATLAB, JavaScript, Swift
+    \end{itemize}    
+    \item \textbf{Robotics:} 
+    \begin{itemize}
+        \item ROS, STM32, Arduino, SolidWorks, RTOS, 3D printing, PCB circuit design
+    \end{itemize}
+    \item \textbf{Optimization and OR Tools:} 
+    \begin{itemize}
+        \item JuMP.jl, Gurobi, Google OR-Tools
+    \end{itemize}
+    \item \textbf{Other Software/Tools:} 
+    \begin{itemize}
+        \item Cadence, Verilog, Git, Linux development environment, LaTeX
+    \end{itemize}
     \end{itemize}
 \end{rSection}
 

@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Junyan received his Ph.D. degree in Data Science from City University of Hong Kong in 2025 under the supervision of [Prof. Minghua Chen](https://www.mhchen.com). He received his bachelor's degree in Computer Science and Technology from ShanghaiTech University in 2019, mentored by [Prof. Boris Houska](http://faculty.sist.shanghaitech.edu.cn/faculty/boris/). 
+Junyan received his Ph.D. degree in Data Science from City University of Hong Kong in 2025 under the supervision of [Prof. Minghua Chen](https://www.mhchen.com). He received his bachelor's degree in Computer Science and Technology from ShanghaiTech University in 2019, mentored by [Prof. Boris Houska](http://faculty.sist.shanghaitech.edu.cn/faculty/boris/) and [Dr. Yuning Jiang](https://www.researchgate.net/profile/Yuning-Jiang-3). 
 Junyan’s research focuses on intelligent transportation systems, particularly from the perspectives of control and optimization. He also explores computational methods for energy systems, blending theoretical insights with practical applications.
 His research has been recognized with the ACM e-Energy Best Paper Award in 2023.
 He is also the main developer of the [E2Pilot](https://www.e2pilots.com/) and [ParExMPC](https://github.com/sujunyan/ParExMPC/wiki) software.
@@ -25,6 +25,7 @@ His research interests include intelligent transportation systems, from the pers
 -->
 
 [<a href="{{ '/assets/pdf/CV/CV.pdf' | relative_url }}">Curriculum Vitae</a>]
+[<a href="{{ '/assets/pdf/CV/CV_CN.pdf' | relative_url }}">中文简历</a>]
 
 <!-- [<a href="{{ '/assets/pdf/cfo.e-energy23.pdf' | relative_url }}">preprint</a>] 
 -->
