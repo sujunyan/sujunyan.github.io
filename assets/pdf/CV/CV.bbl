@@ -1,0 +1,54 @@
+\begin{thebibliography}{10}
+
+\bibitem{gao2020efficient}
+\FormatName{Ling Gao}, \FormatName{Junyan Su}, \FormatName{Jiadi Cui}, \FormatName{Xiangchen Zeng}, \FormatName{Xin Peng}, and \FormatName{Laurent Kneip}.
+\newblock {Efficient Globally-Optimal Correspondence-Less Visual Odometry for Planar Ground Vehicles}.
+\newblock In {\em Proceedings of IEEE International Conference on Robotics and Automation (ICRA)}, 2020.
+
+\bibitem{jiang2025fast}
+\FormatName{Yuning Jiang}, \FormatName{Kristína Fedorová}, \FormatName{Junyan Su}, \FormatName{Juraj Oravec}, \FormatName{Boris Houska}, and \FormatName{Colin~N. Jones}.
+\newblock {Fast and Lightweight: A Real-Time Parallelizable MPC for Embedded Systems}.
+\newblock {\em European Journal of Control}, page 101217, 2025.
+
+\bibitem{jiang2020distributed}
+\FormatName{Yuning Jiang}, \FormatName{Junyan Su}, \FormatName{Yuanming Shi}, and \FormatName{Boris Houska}.
+\newblock {Distributed Optimization for Massive Connectivity}.
+\newblock {\em {IEEE} Wireless Communications Letters}, 9(9):1412--1416, 2020.
+
+\bibitem{lin2022competitive}
+\FormatName{Qiulin Lin}, \FormatName{Yanfang Mo}, \FormatName{Junyan Su}, and \FormatName{Minghua Chen}.
+\newblock {Competitive Online Optimization with Multiple Inventories: A Divide-and-Conquer Approach}.
+\newblock In {\em Proceedings of ACM SIGMETRICS}, 2022.
+
+\bibitem{lin2024competitive}
+\FormatName{Qiulin Lin}, \FormatName{Junyan Su}, and \FormatName{Minhua Chen}.
+\newblock {Competitive Online Age-of-Information Optimization for Energy Harvesting Systems}.
+\newblock In {\em Proceedings of IEEE INFOCOM}, 2024.
+
+\bibitem{lin2025optimala}
+\FormatName{Qiulin Lin}, \FormatName{Junyan Su}, and \FormatName{Minghua Chen}.
+\newblock {Optimal Algorithms for Online Age-of-Information Optimization in Energy Harvesting Systems}.
+\newblock {\em IEEE Transactions on Networking}, 2025.
+
+\bibitem{su2020distributed}
+\FormatName{Junyan Su}, \FormatName{Yuning Jiang}, \FormatName{Altu{\u{g}} Bitlislio{\u{g}}lu}, \FormatName{Colin~N. Jones}, and \FormatName{Boris Houska}.
+\newblock {Distributed Multi-Building Coordination for Demand Response}.
+\newblock In {\em Proceedings of 21st IFAC World Congress}, 2020.
+
+\bibitem{su2023follow}
+\FormatName{Junyan Su}, \FormatName{Qiulin Lin}, and \FormatName{Minghua Chen}.
+\newblock {Follow the Sun and Go with the Wind: Carbon Footprint Optimized Timely E-Truck Transportation}.
+\newblock In {\em Proceedings of the ACM e-Energy}, 2023.
+
+\bibitem{su2023minimize}
+\FormatName{Junyan Su}, \FormatName{Qiulin Lin}, \FormatName{Minghua Chen}, and \FormatName{Haibo Zeng}.
+\newblock {Minimizing Carbon Footprint for Timely E-Truck Transportation: Hardness and Approximation Algorithm}.
+\newblock In {\em Proceedings of IEEE Conference on Decision and Control (CDC)}, 2023.
+\newblock (Invited paper).
+
+\bibitem{su2024minimizing}
+\FormatName{Junyan Su}, \FormatName{Runzhi Zhou}, \FormatName{Qingyu Liu}, \FormatName{Wenjie Xu}, \FormatName{Minghua Chen}, and \FormatName{Haibo Zeng}.
+\newblock {Minimizing Emission for Timely Heavy-Duty Truck Transportation}.
+\newblock {\em IEEE Transactions on Intelligent Transportation Systems}, 2024.
+
+\end{thebibliography}
