@@ -12,8 +12,8 @@ This project is a follow-up project of [Energy-Efficient Timely Transportation o
 ---
 ### **Highlights**
 
-- Accepted for publication in <span style="color:blue">Nature Communications</span>.
-- <span style="color:blue">Best paper award</span> at ACM e-Energy 2023.
+- Journal version published in <span style="color:blue">Nature Communications</span> and recieved Editors' Highlights in Engineering and Infrastructure, 2025.
+- Conference version recieved <span style="color:blue">Best paper award</span> at ACM e-Energy 2023.
 - We study an important yet challenging problem , namely the carbon footprint optimization problem for e-trucks.
 - We provide a novel problem formulation, which incurs low model complexity and reveals a useful problem structure. We develop an efficient algorithm with performance guarantee.
 - **Key technical idea:** The problem is easy either when there is no charging or when there is only charging. Our idea is to separate the combined challenging problem into those two easy subproblems and combine their solutions.
